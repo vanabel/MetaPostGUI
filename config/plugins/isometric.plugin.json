@@ -1,0 +1,23 @@
+{
+  "id": "isometric",
+  "title": "等轴测立方体",
+  "description": "set_projection + cube/cuboid — GPL-3.0 · thruston/metapost-examples",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "isometric_projection.mp",
+  "tool": {
+    "name": "cube",
+    "description": "绘制等轴测投影立方体（使用前可先调用 set_projection 设置视角）",
+    "paramDocs": {
+      "a": "x 方向边长",
+      "b": "y 方向边长",
+      "c": "z 方向边长"
+    },
+    "defaults": {
+      "a": "1.5u",
+      "b": "1.5u",
+      "c": "1.5u"
+    }
+  }
+}

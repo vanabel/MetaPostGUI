@@ -1,0 +1,604 @@
+{
+  "ok": false,
+  "passed": 94,
+  "failed": 5,
+  "skipped": 0,
+  "total": 99,
+  "elapsed_sec": 14.06,
+  "results": [
+    {
+      "id": "tlhiv-001",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-002",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-003",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-004",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-005",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-006",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-007",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-008",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-009",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-010",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-011",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-012",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-013",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-014",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-015",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-016",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-017",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-018",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-019",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-020",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-021",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-022",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-023",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-024",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-025",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-026",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-027",
+      "tier": "B",
+      "ok": false,
+      "log_tail": "This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)\n(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp\n(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp\nPreloading the plain mem file, version 1.005) ) (./figure.mp\n>> figure.mp\n>> figure.mpx\n! ! Unable to read mpx file.\nl.168 label.top(btex\n                     Au dessus  etex, A);\nTranscript written on figure.log.\nfatal: Command failed: latex mpeK65Pa.tex; see mpxerr.log"
+    },
+    {
+      "id": "tlhiv-028",
+      "tier": "B",
+      "ok": false,
+      "log_tail": "This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)\n(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp\n(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp\nPreloading the plain mem file, version 1.005) ) (./figure.mp\n>> figure.mp\n>> figure.mpx\n! ! Unable to read mpx file.\nl.168 label.ulft(btex\n                      En haut � gauche etex, A);\nTranscript written on figure.log.\nfatal: Command failed: latex mpr46BVF.tex; see mpxerr.log"
+    },
+    {
+      "id": "tlhiv-029",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-030",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-031",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-032",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-033",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-034",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-035",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-036",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-037",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-038",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-039",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-040",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-041",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-042",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-043",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-055",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-060",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-061",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-065",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-066",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-067",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-068",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-069",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-070",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-071",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-072",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-074",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-075",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-076",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-077",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-078",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-079",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-081",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-082",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-083",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-084",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-086",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-087",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-088",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-089",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-090",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-091",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-092",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-093",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-094",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-099",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-100",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-101",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-102",
+      "tier": "B",
+      "ok": false,
+      "log_tail": " picture %CAPSULE0x132631c10\n! Improper `addto'.\n<to be read again> \n                   C\nl.170 ...urt(TEX decimal(angle(B-C)-angle(A-C)), C\n                                                  );\n! Extra tokens will be flushed.\n<to be read again> \n                   C\nl.170 ...urt(TEX decimal(angle(B-C)-angle(A-C)), C\n                                                  );\n[1] )\n(see the transcript file for additional information)\n1 output file written: figure-1.svg\nTranscript written on figure.log.\n"
+    },
+    {
+      "id": "tlhiv-103",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-104",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-107",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-110",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-111",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-129",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-172",
+      "tier": "B",
+      "ok": false,
+      "log_tail": "in> \n                   withpen\ndraw->...:also(EXPR0)else:doublepath(EXPR0)withpen\n                                                  .currentpen.fi._op_\n<to be read again> \n                   (\nl.171 draw cardiodide(\n                      p,z0);\n! Extra tokens will be flushed.\n<to be read again> \n                   (\nl.171 draw cardiodide(\n                      p,z0);\n[1] )\n(see the transcript file for additional information)\n1 output file written: figure-1.svg\nTranscript written on figure.log.\n"
+    },
+    {
+      "id": "tlhiv-203",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-204",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-205",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-206",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-207",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-228",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-233",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-251",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-301",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "tlhiv-302",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "curated-grid-segment",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "curated-bezier",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "curated-circle-arrow",
+      "tier": "A",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "thruston-mark-angle-demo",
+      "tier": "B",
+      "ok": true,
+      "log_tail": ""
+    },
+    {
+      "id": "thruston-arrow-label-demo",
+      "tier": "B",
+      "ok": false,
+      "log_tail": "le, version 1.005) ) (./figure.mp\n>> (0,0)\n! Improper transformation argument.\n<to be read again> \n                   )\narrow_label->...)-(EXPR3))rotated90)scaled(EXPR5))\n                                                  ;drawdblarrow.arrow_path;s...\nl.182 arrow_label(A, B, btex $d$ etex, origin)\n                                              ;\n[1{psfonts.map}<cmmi10.pfb>] )\n(see the transcript file for additional information)\n1 output file written: figure-1.svg\nTranscript written on figure.log.\n"
+    }
+  ]
+}

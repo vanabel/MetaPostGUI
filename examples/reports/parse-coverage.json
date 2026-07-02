@@ -1,0 +1,3975 @@
+{
+  "examples": [
+    {
+      "id": "tlhiv-001",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-002",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-003",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A[]",
+        "A[0]:=(-1cm, -1cm)",
+        "A[1]:=( 1cm, -1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-004",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A:=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-005",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-006",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 12,
+      "total": 12,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-007",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-008",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-009",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-010",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-011",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-012",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-013",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-014",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-015",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-016",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-017",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-018",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-019",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-020",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-021",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-022",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-023",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-024",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-025",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-026",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A:=(-1.5cm,-1.5cm)",
+        "B:=(1.5cm,-1.5cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-027",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A := (0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-028",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A := (0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-029",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A := (0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-030",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-031",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-032",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 23,
+      "total": 23,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "pair A,B,C,D,E,F,G",
+        "A := (-u,u)"
+      ]
+    },
+    {
+      "id": "tlhiv-033",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-034",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-035",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-036",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-037",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-038",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw (0,0) -- (0,1cm) .. (1cm,0) .. (1cm,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-039",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-040",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-041",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A:=(0,0)",
+        "B:=(1cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-042",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-043",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-044",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-045",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-046",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-047",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-048",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "alpha := 30",
+        "draw 1cm * dir 0 {dir 90} ..",
+        "1cm * dir alpha {dir(90+alpha)}"
+      ]
+    },
+    {
+      "id": "tlhiv-049",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "alpha := 30",
+        "draw 1cm * dir 0 {dir 90} ..",
+        "1cm * dir alpha {dir(90+alpha)}"
+      ]
+    },
+    {
+      "id": "tlhiv-050",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 24,
+      "total": 24,
+      "ratio": 1,
+      "macro_samples": [
+        "def draw_angle(expr A, O, B, n) =",
+        "draw_angle_(A,O,B,5mm)",
+        "if n>1 : draw_angle_(A,O,B,4.5mm)"
+      ]
+    },
+    {
+      "id": "tlhiv-051",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path p",
+        "p := (u,0){up}..(-u,0){down}--cycle"
+      ]
+    },
+    {
+      "id": "tlhiv-052",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path p",
+        "p := (u,0){up} .."
+      ]
+    },
+    {
+      "id": "tlhiv-053",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "pair A,AA,B,BB,C,D",
+        "A  := ( .2u,  .05u)"
+      ]
+    },
+    {
+      "id": "tlhiv-054",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "pair A,B,C,D",
+        "A:=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-055",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-056",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw (0,0) .. tension 2 .. (1cm,1cm) .. (2cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-057",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-058",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw (0,u)         {right}    .. tension 2 .. ( u*dir -150 ){dir 120}  .. tension 2 .. ( u*dir -30  ){dir -120} .. tension 2 .. cycle"
+      ]
+    },
+    {
+      "id": "tlhiv-059",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw (0,u)         {right}    .. tension 4 .. ( u*dir -150 ){dir 120}  .. tension 4 .. ( u*dir -30  ){dir -120} .. tension 4 .. cycle"
+      ]
+    },
+    {
+      "id": "tlhiv-060",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=.5cm",
+        "pair A,B,C,D",
+        "A:=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-061",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B, C, D",
+        "A = (0,0)",
+        "D = (2u,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-062",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 30,
+      "total": 30,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef bezier(expr n,A,B,C,D) =",
+        "save a",
+        "pair a[]"
+      ]
+    },
+    {
+      "id": "tlhiv-063",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-064",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw (0,0){up} ... (1cm, 1mm) ... (2cm,0){down}"
+      ]
+    },
+    {
+      "id": "tlhiv-065",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-066",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-067",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "tlhiv-068",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D",
+        "xpart A = ypart A = ypart B = xpart C = 0",
+        "xpart B = ypart C = xpart D = ypart D = 2cm"
+      ]
+    },
+    {
+      "id": "tlhiv-069",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,M",
+        "numeric lambda, mu",
+        "A=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-070",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,M",
+        "A=(0,0)",
+        "B=(2cm,3cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-071",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,AA,BB,CC,G",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-072",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "draw p shifted 2(1mm,2mm)",
+        "draw p shifted 3(1mm,2mm)"
+      ]
+    },
+    {
+      "id": "tlhiv-073",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 12,
+      "total": 12,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "draw p rotated 10",
+        "draw p rotated 20"
+      ]
+    },
+    {
+      "id": "tlhiv-074",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "draw p xscaled 2",
+        "draw p xscaled 3"
+      ]
+    },
+    {
+      "id": "tlhiv-075",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E",
+        "A := (1cm,0)",
+        "B := A rotated 72"
+      ]
+    },
+    {
+      "id": "tlhiv-076",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E",
+        "A := (1cm,0)",
+        "B := A rotated 72"
+      ]
+    },
+    {
+      "id": "tlhiv-077",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E",
+        "A := (1cm,0)",
+        "B := A rotated 72"
+      ]
+    },
+    {
+      "id": "tlhiv-078",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "drawarrow p zscaled (1,2)"
+      ]
+    },
+    {
+      "id": "tlhiv-079",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path p",
+        "pair A"
+      ]
+    },
+    {
+      "id": "tlhiv-080",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "pair A",
+        "A := (u,-u)"
+      ]
+    },
+    {
+      "id": "tlhiv-081",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,AA,BB,CC,H",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-082",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,H",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-083",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,O",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-084",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D",
+        "u:=2cm",
+        "A=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-085",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D",
+        "u:=2cm",
+        "A=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-086",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "pair A,B,C,D,E",
+        "A := (0,u)"
+      ]
+    },
+    {
+      "id": "tlhiv-087",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "fill fullcircle scaled 2u withcolor .8white",
+        "fill fullcircle scaled u shifted (u*dir30) withcolor .8white"
+      ]
+    },
+    {
+      "id": "tlhiv-088",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "transform T",
+        "(0,0) transformed T = (0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-089",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "transform T",
+        "xpart T = ypart T = 0"
+      ]
+    },
+    {
+      "id": "tlhiv-090",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "draw fullcircle scaled 5mm shifted (1cm*dir45)",
+        "draw fullcircle scaled 5mm shifted (1cm*dir135)",
+        "picture mypicture"
+      ]
+    },
+    {
+      "id": "tlhiv-091",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "picture pic",
+        "pic := nullpicture",
+        "addto pic contour fullcircle scaled 1cm withcolor .8white"
+      ]
+    },
+    {
+      "id": "tlhiv-092",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "picture mickey",
+        "mickey := nullpicture"
+      ]
+    },
+    {
+      "id": "tlhiv-093",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "picture mickey",
+        "mickey := nullpicture"
+      ]
+    },
+    {
+      "id": "tlhiv-094",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 12,
+      "total": 12,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=3mm",
+        "picture mickey",
+        "fill fullcircle scaled 2u withcolor .8white"
+      ]
+    },
+    {
+      "id": "tlhiv-095",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B",
+        "path p",
+        "A = (0,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-096",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 12,
+      "total": 12,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B",
+        "path p",
+        "numeric n"
+      ]
+    },
+    {
+      "id": "tlhiv-097",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "path c[], l[]",
+        "c[0] = fullcircle xscaled 1cm yscaled .5cm",
+        "shifted (0,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-098",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "path c[], l[]",
+        "c[0] = fullcircle xscaled 1cm yscaled .5cm",
+        "shifted (0,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-099",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B",
+        "A := (0,0)",
+        "B := (2cm,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-100",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A:=(2cm,2cm)",
+        "drawarrow (origin--A) rotated -1/3 angle(A)"
+      ]
+    },
+    {
+      "id": "tlhiv-101",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B",
+        "A:=(1cm,2cm)",
+        "B:=(2cm,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-102",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-103",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 32,
+      "total": 32,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,AA,B,BB,C,CC,O,H",
+        "A=(0,0)",
+        "B=(3cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-104",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,M,h",
+        "u:=2cm",
+        "A=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-105",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "path p"
+      ]
+    },
+    {
+      "id": "tlhiv-106",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "pair A",
+        "A := point 0  of p"
+      ]
+    },
+    {
+      "id": "tlhiv-107",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=5mm",
+        "path p",
+        ".. (3u,2u) .. {curl 0} (4u,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-108",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path p,q",
+        "draw subpath(0,.4) of q withpen pencircle scaled 1bp"
+      ]
+    },
+    {
+      "id": "tlhiv-109",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path a,b,c,d",
+        "a = (-u,-.2u){up} .. tension 1.2 .. (u,-.2u){down}"
+      ]
+    },
+    {
+      "id": "tlhiv-110",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "path c[]",
+        "c[2] := c[1] shifted (0,.5u)"
+      ]
+    },
+    {
+      "id": "tlhiv-111",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "path a,b,c",
+        "b = a rotated (360/3)",
+        "c = b rotated (360/3)"
+      ]
+    },
+    {
+      "id": "tlhiv-112",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "def compute_curve(suffix f)(expr xmin, xmax, xinc) =",
+        "( (xmin,f(xmin))",
+        "for x=xmin+xinc step xinc until xmax:"
+      ]
+    },
+    {
+      "id": "tlhiv-113",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "path p, q",
+        "q = (0,1cm){dir -60}..(1cm,-1cm)..{dir 60}(2cm,1cm)",
+        "draw q"
+      ]
+    },
+    {
+      "id": "tlhiv-114",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "path p, q",
+        "q = (0,1cm){dir -60}..(1cm,-1cm)..{dir 60}(2cm,1cm)",
+        "draw q"
+      ]
+    },
+    {
+      "id": "tlhiv-115",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B",
+        "path p",
+        "A = (0,1cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-116",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 39,
+      "total": 39,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "pair A[], B[], C[], D[], E[]",
+        "path p[]"
+      ]
+    },
+    {
+      "id": "tlhiv-117",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 28,
+      "total": 28,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "pair A, B, C, D, E",
+        "path p, q, r"
+      ]
+    },
+    {
+      "id": "tlhiv-118",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "for i=0 step 1 until 3:",
+        "draw 1cm*right rotated (i*90) withpen pencircle scaled 4bp",
+        "endfor"
+      ]
+    },
+    {
+      "id": "tlhiv-119",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw for i=0 step 1 until 3: 1cm*right rotated (i*90) -- endfor cycle"
+      ]
+    },
+    {
+      "id": "tlhiv-120",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "n:=5",
+        "draw for i=0 step 1 until n-1:",
+        "1cm*up rotated (i*360/n) --"
+      ]
+    },
+    {
+      "id": "tlhiv-121",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "n:=7",
+        "draw for i=0 step 1 until n-1:",
+        "1cm*up rotated (i*360/n) --"
+      ]
+    },
+    {
+      "id": "tlhiv-122",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "n:=10",
+        "for i=0 step 1 until n:"
+      ]
+    },
+    {
+      "id": "tlhiv-123",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "n:=10",
+        "for i=0 step length(p)/n until length(p):"
+      ]
+    },
+    {
+      "id": "tlhiv-124",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "for i=-2u step u until 2u:",
+        "draw (i,u/20)--(i,-u/20)"
+      ]
+    },
+    {
+      "id": "tlhiv-125",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "for i=-2u step u until 2u:",
+        "draw (i,u/10)--(i,-u/10)"
+      ]
+    },
+    {
+      "id": "tlhiv-126",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "for i=-2u step u until 2u:",
+        "draw (i,2u)--(i,-2u)"
+      ]
+    },
+    {
+      "id": "tlhiv-127",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "for i=-2u step u until 2u:",
+        "draw (i,2u)--(i,-2u)"
+      ]
+    },
+    {
+      "id": "tlhiv-128",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 25,
+      "total": 25,
+      "ratio": 1,
+      "macro_samples": [
+        "u := 5mm",
+        "vardef f(expr x) = x**2 -.1 enddef",
+        "def axes(expr xmin,xmax,ymin,ymax) ="
+      ]
+    },
+    {
+      "id": "tlhiv-129",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "transform T",
+        "u:=1cm",
+        "z0=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-130",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "transform T",
+        "u:=1cm",
+        "z0=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-131",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "transform T",
+        "u:=1cm",
+        "z1=(0,2u)"
+      ]
+    },
+    {
+      "id": "tlhiv-132",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "pair A[]",
+        "numeric n"
+      ]
+    },
+    {
+      "id": "tlhiv-133",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "numeric n,m",
+        "n:=4"
+      ]
+    },
+    {
+      "id": "tlhiv-134",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "numeric n,m",
+        "n:=3"
+      ]
+    },
+    {
+      "id": "tlhiv-135",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A[], B[]",
+        "numeric n",
+        "n:=6"
+      ]
+    },
+    {
+      "id": "tlhiv-136",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "numeric n",
+        "n:=5",
+        "pair O,A,B,C,D"
+      ]
+    },
+    {
+      "id": "tlhiv-137",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "u:=1cm",
+        "p = fullcircle xscaled -u yscaled 3u"
+      ]
+    },
+    {
+      "id": "tlhiv-138",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 25,
+      "total": 25,
+      "ratio": 1,
+      "macro_samples": [
+        "pair P[], Q[], R[], S[]",
+        "u:=.5cm",
+        "for i=0 upto 4:"
+      ]
+    },
+    {
+      "id": "tlhiv-139",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 30,
+      "total": 30,
+      "ratio": 1,
+      "macro_samples": [
+        "pair P[], Q[], R[], S[]",
+        "u:=.5cm",
+        "for i=0 upto 4:"
+      ]
+    },
+    {
+      "id": "tlhiv-140",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "for i=1 step -.01 until 0:",
+        "fill fullcircle scaled (i*2cm) withcolor i*white",
+        "endfor"
+      ]
+    },
+    {
+      "id": "tlhiv-141",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=5mm",
+        "path p",
+        "p := p shifted (-1,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-142",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "z0 = (50,50)",
+        "z1 = z0 rotated 90",
+        "z2 = z1 rotated 90"
+      ]
+    },
+    {
+      "id": "tlhiv-143",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "z0 = (50,50)",
+        "z1 = z0 rotated 90",
+        "z2 = z1 rotated 90"
+      ]
+    },
+    {
+      "id": "tlhiv-144",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "vardef degrade(expr p,q,M,N) =",
+        "save a,b"
+      ]
+    },
+    {
+      "id": "tlhiv-145",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "def couleur(expr c) = c*white enddef",
+        "vardef degrade(expr p,q,M,N) ="
+      ]
+    },
+    {
+      "id": "tlhiv-146",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 33,
+      "total": 33,
+      "ratio": 1,
+      "macro_samples": [
+        "def degrade(expr p, q, N) =",
+        "begingroup",
+        "save n, m, M"
+      ]
+    },
+    {
+      "id": "tlhiv-147",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw for i=0 step 10 until 360: 2cm* (sind(2*i), cosd(3*i)) .. endfor cycle"
+      ]
+    },
+    {
+      "id": "tlhiv-148",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "for i=0 step .1 until 360:",
+        "col := i/360",
+        "draw 2cm* (sind(2*i), cosd(3*i)) withpen pencircle scaled 2bp withcolor"
+      ]
+    },
+    {
+      "id": "tlhiv-149",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "def couleur(expr x) =",
+        "if x>.5: (2*(1-x)) [red, blue]",
+        "else:    (1-2x) [blue, red]"
+      ]
+    },
+    {
+      "id": "tlhiv-150",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "for i=0 step 1 until 360:",
+        "pair P",
+        "P = 2cm* (sind(2*i), cosd(3*i))"
+      ]
+    },
+    {
+      "id": "tlhiv-151",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "for i=0 step 1 until 360:",
+        "pair P",
+        "P = 2cm* (sind(2*i), cosd(3*i))"
+      ]
+    },
+    {
+      "id": "tlhiv-152",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 21,
+      "total": 21,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=5mm",
+        "vardef project(expr x,y,z) =",
+        "x*(-1,-1) + y*(1,0) + z*(0,1)"
+      ]
+    },
+    {
+      "id": "tlhiv-153",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef project(expr x,y,z) =",
+        "x*(-1,-1) + y*(1,0) + z*(0,1)",
+        "enddef"
+      ]
+    },
+    {
+      "id": "tlhiv-154",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef project(expr x,y,z) =",
+        "x*(-1,-1) + y*(1,0) + z*(0,1)",
+        "enddef"
+      ]
+    },
+    {
+      "id": "tlhiv-155",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 28,
+      "total": 28,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef f(expr x,y) = sind(x/u*180)*sind(y/u*180)*u enddef",
+        "boolean dessine_fil_de_fer",
+        "dessine_fil_de_fer := false"
+      ]
+    },
+    {
+      "id": "tlhiv-156",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 37,
+      "total": 37,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef random_path (expr n) =",
+        "save i, A",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-157",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 26,
+      "total": 26,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef auto_intersections(expr p) =",
+        "save a,b,N,i,j",
+        "numeric N,i,j"
+      ]
+    },
+    {
+      "id": "tlhiv-158",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "draw point (arctime (1/2 arclength(p)) of p) of p withpen pencircle scaled 4bp"
+      ]
+    },
+    {
+      "id": "tlhiv-159",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef milieu(expr p) =",
+        "save l,i,tot,A,B",
+        "numeric l,tot,i"
+      ]
+    },
+    {
+      "id": "tlhiv-160",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 27,
+      "total": 27,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef milieu_time(expr p) =",
+        "save l,i,tot,A,B,t",
+        "numeric l,tot,i,t"
+      ]
+    },
+    {
+      "id": "tlhiv-161",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,B,u"
+      ]
+    },
+    {
+      "id": "tlhiv-162",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u"
+      ]
+    },
+    {
+      "id": "tlhiv-163",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u,a,b"
+      ]
+    },
+    {
+      "id": "tlhiv-164",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C",
+        "C = 3mm*up",
+        "A = C rotated 120"
+      ]
+    },
+    {
+      "id": "tlhiv-165",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C",
+        "C = 3mm*up",
+        "A = C rotated 120"
+      ]
+    },
+    {
+      "id": "tlhiv-166",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "ux:=2mm",
+        "uy:=5mm",
+        "numeric xmin, xmax, ymin, ymax, M"
+      ]
+    },
+    {
+      "id": "tlhiv-167",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "ux:=5mm",
+        "uy:=2mm",
+        "numeric xmin, xmax, ymin, ymax, M"
+      ]
+    },
+    {
+      "id": "tlhiv-168",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "ux:=5mm",
+        "uy:=5mm",
+        "numeric xmin, xmax, ymin, ymax, M"
+      ]
+    },
+    {
+      "id": "tlhiv-169",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "z0 = (-1cm,0)",
+        "pair A[]"
+      ]
+    },
+    {
+      "id": "tlhiv-170",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef cardiodide(expr p, O) =",
+        "save i,M,N",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-171",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 30,
+      "total": 30,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef cardiodide(expr p, O) =",
+        "save i,M,N",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-172",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        ".. (1cm,1cm) .. (-1cm,1cm) .. cycle",
+        "z0 = (-2cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-173",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 24,
+      "total": 24,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef inversion (expr O,k,M) =",
+        "if pair M:",
+        "(O + k*unitvector(M-O)/abs(M-O))"
+      ]
+    },
+    {
+      "id": "tlhiv-174",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 24,
+      "total": 24,
+      "ratio": 1,
+      "macro_samples": [
+        "def curve(expr p,i,q,j,t) =",
+        "point i of p {direction i of p} ..",
+        "tension t .."
+      ]
+    },
+    {
+      "id": "tlhiv-175",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 29,
+      "total": 29,
+      "ratio": 1,
+      "macro_samples": [
+        "def curve(expr p,i,q,j,t) =",
+        "point i of p {direction i of p} ..",
+        "tension t .."
+      ]
+    },
+    {
+      "id": "tlhiv-176",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 12,
+      "total": 12,
+      "ratio": 1,
+      "macro_samples": [
+        "path c[], l[]",
+        "sphere_with_holes(6)",
+        "def ellipse(expr a,b,c,d,e) ="
+      ]
+    },
+    {
+      "id": "tlhiv-177",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 21,
+      "total": 21,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef bar(expr m,a,b,c) =",
+        "m = 1/3a + 1/3b + 1/3c",
+        "enddef"
+      ]
+    },
+    {
+      "id": "tlhiv-178",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 25,
+      "total": 25,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef bissectrice(expr M,A,B,C) =",
+        "(M-A) = whatever * (",
+        "(A-C) rotated 1/2(angle(B-A) - angle(C-A)))"
+      ]
+    },
+    {
+      "id": "tlhiv-179",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 25,
+      "total": 25,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef premiere_trisectrice (expr M, A,B,C) =",
+        "(M-A) = whatever * ( (A-B) rotated 1/3 (angle(C-A) - angle(B-A)) )",
+        "enddef"
+      ]
+    },
+    {
+      "id": "tlhiv-180",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u"
+      ]
+    },
+    {
+      "id": "tlhiv-181",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,B,u"
+      ]
+    },
+    {
+      "id": "tlhiv-182",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u"
+      ]
+    },
+    {
+      "id": "tlhiv-183",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u,a,b"
+      ]
+    },
+    {
+      "id": "tlhiv-184",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u"
+      ]
+    },
+    {
+      "id": "tlhiv-185",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,B,u"
+      ]
+    },
+    {
+      "id": "tlhiv-186",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u"
+      ]
+    },
+    {
+      "id": "tlhiv-187",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "save arrowhead",
+        "vardef arrowhead expr p =",
+        "save A,u,a,b"
+      ]
+    },
+    {
+      "id": "tlhiv-188",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "def drawwhitearrow expr p = _apth:=p",
+        "_finwhitearr enddef",
+        "def _finwhitearr text t ="
+      ]
+    },
+    {
+      "id": "tlhiv-189",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 71,
+      "total": 71,
+      "ratio": 1,
+      "macro_samples": [
+        "def draw_white_arrow expr p = _apth:=p",
+        "_fin_white_arr enddef",
+        "def _fin_white_arr text t ="
+      ]
+    },
+    {
+      "id": "tlhiv-190",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef mylabel(expr pic, p, t) =",
+        "save A",
+        "pair A"
+      ]
+    },
+    {
+      "id": "tlhiv-191",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef mylabel(expr pic, p, t) =",
+        "save A",
+        "pair A"
+      ]
+    },
+    {
+      "id": "tlhiv-192",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 38,
+      "total": 38,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef mylabel(expr pic, p, t) =",
+        "save A,a",
+        "pair A"
+      ]
+    },
+    {
+      "id": "tlhiv-193",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "n:=8",
+        "u:=5mm",
+        "for i=0 upto n-1:"
+      ]
+    },
+    {
+      "id": "tlhiv-194",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "n:=8",
+        "u:=5mm",
+        "for i=0 upto n-1:"
+      ]
+    },
+    {
+      "id": "tlhiv-195",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 23,
+      "total": 23,
+      "ratio": 1,
+      "macro_samples": [
+        "n:=8",
+        "u:=5mm",
+        "for i=0 upto n-1:"
+      ]
+    },
+    {
+      "id": "tlhiv-196",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 31,
+      "total": 31,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef trace (suffix f)(expr a,b,inc) =",
+        "save i",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-197",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef trace_trapezes (suffix f)(expr a,b,inc) =",
+        "save i",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-198",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef trace_rectangles_right (suffix f)(expr a,b,inc) =",
+        "save i",
+        "numeric i"
+      ]
+    },
+    {
+      "id": "tlhiv-199",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef maxf(suffix f)(expr a,b) =",
+        "save m,i",
+        "numeric m,i"
+      ]
+    },
+    {
+      "id": "tlhiv-200",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 27,
+      "total": 27,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef minf(suffix f)(expr a,b) =",
+        "save m,i",
+        "numeric m,i"
+      ]
+    },
+    {
+      "id": "tlhiv-201",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "vardef koch(expr A,B,n) =",
+        "save C"
+      ]
+    },
+    {
+      "id": "tlhiv-202",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "vardef koch(expr A,B,n) =",
+        "save C"
+      ]
+    },
+    {
+      "id": "tlhiv-203",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D",
+        "u := 3cm",
+        "A := (0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-204",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 22,
+      "total": 22,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E,F",
+        "numeric d[]",
+        "u := 3cm"
+      ]
+    },
+    {
+      "id": "tlhiv-205",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E,F",
+        "numeric d[]",
+        "u := 3cm"
+      ]
+    },
+    {
+      "id": "tlhiv-206",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 23,
+      "total": 23,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E,F",
+        "numeric d[]",
+        "u := 3cm"
+      ]
+    },
+    {
+      "id": "tlhiv-207",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 21,
+      "total": 21,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A,B,C,D,E,F",
+        "numeric d[]",
+        "u := 3cm"
+      ]
+    },
+    {
+      "id": "tlhiv-208",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 60,
+      "total": 60,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef pave(expr t, A, B, C, n) =",
+        "save D, E, d",
+        "pair D,E"
+      ]
+    },
+    {
+      "id": "tlhiv-209",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 71,
+      "total": 71,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1cm",
+        "def milieu (expr s, ss, n) =",
+        "if n<>0:"
+      ]
+    },
+    {
+      "id": "tlhiv-210",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=5mm",
+        "pickup pencircle scaled 1pt",
+        "for i=0 upto 500:"
+      ]
+    },
+    {
+      "id": "tlhiv-211",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2cm",
+        "pickup pencircle scaled 1pt",
+        "for i=0 upto 500:"
+      ]
+    },
+    {
+      "id": "tlhiv-212",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "numeric n",
+        "n:=10",
+        "path p"
+      ]
+    },
+    {
+      "id": "tlhiv-213",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "m:=500",
+        "u:=1cm",
+        "pair A,B"
+      ]
+    },
+    {
+      "id": "tlhiv-214",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 20,
+      "total": 20,
+      "ratio": 1,
+      "macro_samples": [
+        "m:=50",
+        "pair A[], B[]",
+        "A[0]=(0,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-215",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 74,
+      "total": 74,
+      "ratio": 1,
+      "macro_samples": [
+        "def rescale_currentpic :=",
+        "if xpart (lrcorner currentpicture - llcorner currentpicture) > 4cm:",
+        "currentpicture := currentpicture scaled ( 4cm /"
+      ]
+    },
+    {
+      "id": "tlhiv-216",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 37,
+      "total": 37,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef pascal(expr C) =",
+        "forever:",
+        "pair A[], M[]"
+      ]
+    },
+    {
+      "id": "tlhiv-217",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "pascal((for i=-2cm step .1cm until 2cm:",
+        "(i, (i/1cm)**2 *1cm) ..",
+        "endfor (2.1cm,4.41cm)) rotated 30)"
+      ]
+    },
+    {
+      "id": "tlhiv-218",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 50,
+      "total": 50,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef pascal(expr C) =",
+        "forever:",
+        "pair A[], M[]"
+      ]
+    },
+    {
+      "id": "tlhiv-219",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "pascal(fullcircle xscaled 6cm yscaled 3cm)",
+        "rescale_currentpic"
+      ]
+    },
+    {
+      "id": "tlhiv-220",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "pascal(fullcircle xscaled 6cm yscaled 3cm)",
+        "rescale_currentpic"
+      ]
+    },
+    {
+      "id": "tlhiv-221",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef barycentre(text t) =",
+        "save n, G",
+        "pair G"
+      ]
+    },
+    {
+      "id": "tlhiv-222",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 29,
+      "total": 29,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef barycentre(text t) =",
+        "save a, i, n, G, X",
+        "pair G,X"
+      ]
+    },
+    {
+      "id": "tlhiv-223",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "numeric n",
+        "n:=10",
+        "path p"
+      ]
+    },
+    {
+      "id": "tlhiv-224",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "u := 5mm",
+        "draw (-2u,4u) for i=-1.9 step .1 until 2.01: .. (i*u, i*i*u) endfor withpen pencircle scaled 1bp",
+        "draw bbox currentpicture withpen pensquare scaled 2bp withcolor .8white"
+      ]
+    },
+    {
+      "id": "tlhiv-225",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "def doit (suffix p)(expr t) =",
+        "begingroup"
+      ]
+    },
+    {
+      "id": "tlhiv-226",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "def doit (suffix p)(expr t) =",
+        "begingroup"
+      ]
+    },
+    {
+      "id": "tlhiv-227",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "vardef doit (suffix p)(expr t) =",
+        "interim linecap := t"
+      ]
+    },
+    {
+      "id": "tlhiv-228",
+      "tier": "A",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "special(\"0 0 moveto 10 10 rlineto -10 10 rlineto stroke\")"
+      ]
+    },
+    {
+      "id": "tlhiv-229",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw fullcircle shifted (.5,.5) xscaled 18.2cm yscaled 4cm",
+        "special( \"/Times-Roman findfont 150 scalefont setfont \" & \"0 0 moveto (ABCabc) false charpath clip stroke \" & \"gsave 300 0 translate \" & \"  2 4 600 {dup 0 moveto 0 exch 0 exch 0 360 arc stroke} for \" & \"grestore \" )"
+      ]
+    },
+    {
+      "id": "tlhiv-230",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw fullcircle shifted (.5,.5) xscaled 18.2cm yscaled 4cm",
+        "special( \"gsave \" & \"/Times-Roman findfont 150 scalefont setfont \" & \"0 0 moveto (ABCabc) false charpath clip stroke \" & \"gsave 300 0 translate \" & \"  2 4 600 {dup 0 moveto 0 exch 0 exch 0 360 arc stroke} for \" & \"grestore \" & \"grestore \" )"
+      ]
+    },
+    {
+      "id": "tlhiv-231",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "p =",
+        "(0,u)"
+      ]
+    },
+    {
+      "id": "tlhiv-232",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 24,
+      "total": 24,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef inversion (expr O,k,M) =",
+        "if pair M:",
+        "(O + k*unitvector(M-O)/abs(M-O))"
+      ]
+    },
+    {
+      "id": "tlhiv-233",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "show ahangle",
+        "begingroup"
+      ]
+    },
+    {
+      "id": "tlhiv-234",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "numeric x",
+        "x = sind(60)",
+        "draw TEX(\"$\\sin 60 = \" & decimal(x) & \"$\")"
+      ]
+    },
+    {
+      "id": "tlhiv-235",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 46,
+      "total": 46,
+      "ratio": 1,
+      "macro_samples": [
+        "picture _TEX_pic",
+        "def largeur(expr p) =",
+        "if picture p:"
+      ]
+    },
+    {
+      "id": "tlhiv-236",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "def reddraw text t = draw t withcolor red enddef",
+        "reddraw (0,0) -- (2cm,5mm) withpen pencircle scaled 2bp"
+      ]
+    },
+    {
+      "id": "tlhiv-237",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "path _myfill_p",
+        "def myfill expr p =",
+        "_myfill_p := p"
+      ]
+    },
+    {
+      "id": "tlhiv-238",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "drawboxed(a)"
+      ]
+    },
+    {
+      "id": "tlhiv-239",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "circleit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "drawboxed(a)"
+      ]
+    },
+    {
+      "id": "tlhiv-240",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "rboxit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "drawboxed(a)"
+      ]
+    },
+    {
+      "id": "tlhiv-241",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "drawunboxed(a)"
+      ]
+    },
+    {
+      "id": "tlhiv-242",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "circleit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "a.dx = a.dy"
+      ]
+    },
+    {
+      "id": "tlhiv-243",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "circleit.a(btex Essai etex)",
+        "a.c = (0,0)",
+        "a.dx = a.dy"
+      ]
+    },
+    {
+      "id": "tlhiv-244",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "circleit.a(btex Début etex)",
+        "a.c = (0,0)",
+        "a.dx = a.dy"
+      ]
+    },
+    {
+      "id": "tlhiv-245",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "circleit.a(btex Début etex)",
+        "a.c = (0,0)",
+        "a.dx = a.dy"
+      ]
+    },
+    {
+      "id": "tlhiv-246",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(",
+        "a.dx = a.dy",
+        "b.dx = b.dy"
+      ]
+    },
+    {
+      "id": "tlhiv-247",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(a.e = b.w)",
+        "boxit.a(btex A etex)",
+        "boxit.b(btex B etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-248",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(a.e = b.w)",
+        "boxit.a(btex a etex)",
+        "boxit.b(btex b etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-249",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(a.se = b.sw",
+        "a.ne = b.nw)",
+        "boxit.a(btex a etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-250",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(a.se = b.sw",
+        "a.ne = b.nw)",
+        "boxit.a1(btex a etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-251",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "draw btex a etex",
+        "draw btex b etex shifted (1cm,0)",
+        "draw btex c etex shifted (2cm,0)"
+      ]
+    },
+    {
+      "id": "tlhiv-252",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(b.c - a.c = (1cm,0))",
+        "boxit a (btex a etex)",
+        "boxit b (btex b etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-253",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef boxTEX expr s =",
+        "save p,h,l",
+        "picture p"
+      ]
+    },
+    {
+      "id": "tlhiv-254",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(b.c - a.c = (1cm,0))",
+        "boxit a (boxTEX \"a\")",
+        "boxit b (boxTEX \"b\")"
+      ]
+    },
+    {
+      "id": "tlhiv-255",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 25,
+      "total": 25,
+      "ratio": 1,
+      "macro_samples": [
+        "let OLD_beginbox_ = beginbox_",
+        "def beginbox_(expr pp,sp)(suffix $)(text t) =",
+        "_n_ := str $"
+      ]
+    },
+    {
+      "id": "tlhiv-256",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(b.c - a.c = (1cm,0))",
+        "boxit a (btex a etex)",
+        "boxit b (btex b etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-257",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 27,
+      "total": 27,
+      "ratio": 1,
+      "macro_samples": [
+        "let OLD_boxit = boxit",
+        "let OLD_sizebox_ = sizebox_",
+        "let OLD_clearb_ = clearb_"
+      ]
+    },
+    {
+      "id": "tlhiv-258",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "boxjoin(b.c - a.c = (1cm,0)",
+        "b.ne - b.se = a.nw - a.sw)",
+        "boxit a (btex a etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-259",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 50,
+      "total": 50,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef boxit@#(text tt) =",
+        "beginbox_(\"boxpath_\",\"sizebox_\",@#,tt)",
+        "generic_declare(pair) _n.sw, _n.s, _n.se, _n.e, _n.ne, _n.n, _n.nw, _n.w"
+      ]
+    },
+    {
+      "id": "tlhiv-260",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "picture p",
+        "numeric h",
+        "p := btex b etex"
+      ]
+    },
+    {
+      "id": "tlhiv-261",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "let beginbox_ = OLD_beginbox_",
+        "let boxit     = OLD_boxit",
+        "let sizebox_  = OLD_sizebox_"
+      ]
+    },
+    {
+      "id": "tlhiv-262",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit.a1(btex $a$ etex)",
+        "boxit.b1(btex etex)",
+        "boxit.a2(btex $b$ etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-263",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit.a(btex A etex)",
+        "boxit.b(btex B etex)",
+        "boxit.c(btex C etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-264",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 16,
+      "total": 16,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit.a(btex A etex)",
+        "boxit.b(btex B etex)",
+        "boxit.c(btex C etex)"
+      ]
+    },
+    {
+      "id": "tlhiv-265",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 19,
+      "total": 19,
+      "ratio": 1,
+      "macro_samples": [
+        "def linkboxes(suffix a,b) =",
+        "drawarrow a.c -- b.c cutbefore bpath.a cutafter bpath.b",
+        "enddef"
+      ]
+    },
+    {
+      "id": "tlhiv-266",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "boxit a(btex Essai etex)",
+        "fill bpath a withcolor .5[red,white]",
+        "drawboxed(a)"
+      ]
+    },
+    {
+      "id": "tlhiv-267",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "def drawredboxed(text t) =",
+        "forsuffixes a=t:",
+        "fill bpath a withcolor .5[red,white]"
+      ]
+    },
+    {
+      "id": "tlhiv-268",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 18,
+      "total": 18,
+      "ratio": 1,
+      "macro_samples": [
+        "def drawcoloredboxed(expr c)(text t) =",
+        "forsuffixes a=t:",
+        "fill bpath a withcolor c"
+      ]
+    },
+    {
+      "id": "tlhiv-269",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 238,
+      "total": 238,
+      "ratio": 1,
+      "macro_samples": [
+        "def begindiag =",
+        "begingroup",
+        "save _diag_x, _diag_x_max, _diag_y, _diag_y_max, _diag"
+      ]
+    },
+    {
+      "id": "tlhiv-270",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-271",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" withpen pencircle scaled 2bp",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-272",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" dashed evenly",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-273",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" withcolor red",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-274",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" withpen pencircle scaled 2bp",
+        "gdraw \"data2\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-275",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\"",
+        "gdraw \"data2\" dashed evenly",
+        "gdraw \"data3\" dashed withdots"
+      ]
+    },
+    {
+      "id": "tlhiv-276",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" withcolor red",
+        "gdraw \"data2\" withcolor blue",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-277",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" plot btex $\\bullet$ etex",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-278",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "picture gros_point",
+        "gros_point := currentpicture",
+        "currentpicture := nullpicture"
+      ]
+    },
+    {
+      "id": "tlhiv-279",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "picture gros_point",
+        "gros_point := nullpicture",
+        "addto gros_point doublepath (0,0) withpen pencircle scaled 4bp"
+      ]
+    },
+    {
+      "id": "tlhiv-280",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 13,
+      "total": 13,
+      "ratio": 1,
+      "macro_samples": [
+        "picture croix",
+        "croix := nullpicture",
+        "addto croix doublepath (-2bp,2bp)--(2bp,-2bp) withpen pencircle scaled 1bp"
+      ]
+    },
+    {
+      "id": "tlhiv-281",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, glabel(gros_point, v1, v2)",
+        ")",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-282",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) path p",
+        "gdata(\"data1\", v, augment.p(v1,v2)",
+        ")"
+      ]
+    },
+    {
+      "id": "tlhiv-283",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "interim linecap := squared",
+        "interim linejoin := mitered",
+        "draw begingraph(3cm,2cm)"
+      ]
+    },
+    {
+      "id": "tlhiv-284",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (v1,0)",
+        "augment p (v1,v2)"
+      ]
+    },
+    {
+      "id": "tlhiv-285",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 6,
+      "total": 6,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (v1,0)",
+        "augment p (v1,v2)"
+      ]
+    },
+    {
+      "id": "tlhiv-286",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "interim linecap:=2",
+        "draw begingraph(3cm,2cm)",
+        "gdata(\"data1\","
+      ]
+    },
+    {
+      "id": "tlhiv-287",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (v1,0)",
+        "augment p (v1,v2)"
+      ]
+    },
+    {
+      "id": "tlhiv-288",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 9,
+      "total": 9,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (v1,0)",
+        "augment p (v1,v2)"
+      ]
+    },
+    {
+      "id": "tlhiv-289",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 23,
+      "total": 23,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (v1,v2)",
+        "augment p (v1 Sadd \"1\",v2)"
+      ]
+    },
+    {
+      "id": "tlhiv-290",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) path p,q",
+        "gdata(\"data1\", v, augment.p(v1,v2)",
+        ")"
+      ]
+    },
+    {
+      "id": "tlhiv-291",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdata(\"data1\", v, path p",
+        "augment p (\"0\", i)",
+        "augment p (v2, i)"
+      ]
+    },
+    {
+      "id": "tlhiv-292",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\"",
+        "glabel.bot(btex Abscisse etex, OUT)",
+        "glabel.lft(btex Ordonnée etex, OUT)"
+      ]
+    },
+    {
+      "id": "tlhiv-293",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\" withcolor red",
+        "glabel.lft(btex 1 etex, 8)",
+        "gdraw \"data2\" withcolor blue"
+      ]
+    },
+    {
+      "id": "tlhiv-294",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\"",
+        "glabel.bot(btex Abscisse etex, OUT)",
+        "glabel.lft(btex Ordonnée etex rotated 90, OUT)"
+      ]
+    },
+    {
+      "id": "tlhiv-295",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 21,
+      "total": 21,
+      "ratio": 1,
+      "macro_samples": [
+        "color couleur[]",
+        "couleur[0] := red",
+        "couleur[1] := green"
+      ]
+    },
+    {
+      "id": "tlhiv-296",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) setcoords(-linear,log)",
+        "gdraw \"data1\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-297",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) gdraw \"data1\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-298",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) setrange( (whatever,0), (whatever,whatever) )",
+        "gdraw \"data1\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-299",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 3,
+      "total": 3,
+      "ratio": 1,
+      "macro_samples": [
+        "draw begingraph(3cm,2cm) setrange(whatever, 0, whatever, whatever)",
+        "gdraw \"data1\"",
+        "endgraph"
+      ]
+    },
+    {
+      "id": "tlhiv-300",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 26,
+      "total": 26,
+      "ratio": 1,
+      "macro_samples": [
+        "vardef TEX primary s =",
+        "write \"verbatimtex\"                    to \"mptextmp.mp\"",
+        "write \"\\documentclass[12pt]{article}\"  to \"mptextmp.mp\""
+      ]
+    },
+    {
+      "id": "tlhiv-301",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "p := subpath(1,3) of fullcircle scaled 2cm",
+        "interim linejoin := mitered"
+      ]
+    },
+    {
+      "id": "tlhiv-302",
+      "tier": "B",
+      "source": "tlhiv",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "p := subpath(1,3) of fullcircle scaled 2cm",
+        "interim linejoin := mitered"
+      ]
+    },
+    {
+      "id": "tlhiv-303",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": [
+        "draw TEX( \"Nous sommes le \"& decimal(day)   &\"/\"& decimal(month) &\"/\"& decimal(year) &\".\"    )"
+      ]
+    },
+    {
+      "id": "tlhiv-304",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 14,
+      "total": 14,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "def doit (suffix p)(expr t) =",
+        "begingroup"
+      ]
+    },
+    {
+      "id": "tlhiv-305",
+      "tier": "C",
+      "source": "tlhiv",
+      "parsed": 15,
+      "total": 15,
+      "ratio": 1,
+      "macro_samples": [
+        "path p",
+        "def doit (suffix p)(expr t) =",
+        "begingroup"
+      ]
+    },
+    {
+      "id": "curated-grid-segment",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": [
+        "drawgrid(5)"
+      ]
+    },
+    {
+      "id": "curated-bezier",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 1,
+      "total": 1,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "curated-circle-arrow",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 2,
+      "total": 2,
+      "ratio": 1,
+      "macro_samples": []
+    },
+    {
+      "id": "thruston-mark-angle-demo",
+      "tier": "B",
+      "source": "thruston",
+      "parsed": 5,
+      "total": 5,
+      "ratio": 1,
+      "macro_samples": [
+        "pair a, o, b",
+        "a = (-2u, 1u)",
+        "o = (0, 0)"
+      ]
+    },
+    {
+      "id": "thruston-arrow-label-demo",
+      "tier": "B",
+      "source": "thruston",
+      "parsed": 4,
+      "total": 4,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A, B",
+        "A = (-2u, 0)",
+        "B = (2u, 0)"
+      ]
+    },
+    {
+      "id": "curated-tangent-coordtwo",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 17,
+      "total": 17,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=2u",
+        "coordtwo(origin, 10u, 0, 0)",
+        "path pat"
+      ]
+    },
+    {
+      "id": "curated-line-intersection",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1u",
+        "pair A,B,C,D,X",
+        "A=(-4u,-1u)"
+      ]
+    },
+    {
+      "id": "curated-path-direction",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 11,
+      "total": 11,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1u",
+        "path p",
+        "pair P,T"
+      ]
+    },
+    {
+      "id": "curated-path-interpolation",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 8,
+      "total": 8,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1u",
+        "path p,q,r"
+      ]
+    },
+    {
+      "id": "curated-plugin-composition",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 10,
+      "total": 10,
+      "ratio": 1,
+      "macro_samples": [
+        "u:=1u",
+        "pair A,B,O,C",
+        "A=(-3u,0)"
+      ]
+    },
+    {
+      "id": "curated-label-position",
+      "tier": "A",
+      "source": "curated",
+      "parsed": 7,
+      "total": 7,
+      "ratio": 1,
+      "macro_samples": [
+        "pair A",
+        "A := (0,0)"
+      ]
+    }
+  ]
+}

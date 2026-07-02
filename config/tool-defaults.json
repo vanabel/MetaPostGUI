@@ -1,0 +1,16 @@
+{
+  "_comment": "宏工具面板插入时的默认参数。键为宏名，值为参数名→默认值。用户可在此扩展，无需改前端代码。",
+  "drawgrid": { "len": "5" },
+  "coordtwo": { "O": "origin", "len": "3", "dr": "0", "dimension": "0" },
+  "drawfun": { "xmin": "-3", "xmax": "3", "xinc": "0.1", "f": "x" },
+  "ShowLabels": { "n": "3" },
+  "drawLengthMark": {
+    "p": "(-2,0)",
+    "q": "(2,0)",
+    "lab": "btex $d$ etex"
+  },
+  "intersectionPath": { "A": "p1", "B": "p2" },
+  "ABangle": { "A": "z1", "B": "z2", "dr": "30" },
+  "draweye": { "lp": "(-2,0)", "rp": "(2,0)", "dr": "30" },
+  "Manifold": { "O": "origin", "A": "(3,2)", "r_in": "25" }
+}

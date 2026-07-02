@@ -1,0 +1,25 @@
+{
+  "id": "arrow-label",
+  "title": "双向箭头标签",
+  "description": "arrow_label(A,B,label,offset) — GPL-3.0 · thruston/metapost-examples",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "arrow_label.mp",
+  "tool": {
+    "name": "arrow_label",
+    "description": "在两点之间绘制双向箭头，并在中点放置标签",
+    "paramDocs": {
+      "A": "起点坐标",
+      "B": "终点坐标",
+      "S": "标签内容（btex … etex 或 picture）",
+      "O": "沿箭头法向的偏移量，控制标签与箭头的间距"
+    },
+    "defaults": {
+      "A": "(-2u,0)",
+      "B": "(2u,0)",
+      "S": "btex $d$ etex",
+      "O": "0"
+    }
+  }
+}

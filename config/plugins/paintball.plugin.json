@@ -1,0 +1,27 @@
+{
+  "id": "paintball",
+  "title": "渐变圆点",
+  "description": "paint_ball(C,c,a,b,n) — GPL-3.0 · thruston/metapost-examples",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "paintball.mp",
+  "tool": {
+    "name": "paint_ball",
+    "description": "在两个轮廓之间填充渐变色，模拟球体高光效果",
+    "paramDocs": {
+      "C": "外轮廓 path（如 fullcircle）",
+      "c": "内轮廓 path（高光区域）",
+      "a": "渐变起始颜色",
+      "b": "渐变结束颜色",
+      "n": "渐变层数（越大越平滑）"
+    },
+    "defaults": {
+      "C": "origin",
+      "c": "fullcircle scaled 1u",
+      "a": "red",
+      "b": "blue",
+      "n": "8"
+    }
+  }
+}

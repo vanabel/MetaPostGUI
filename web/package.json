@@ -1,0 +1,29 @@
+{
+  "name": "metapostgui-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "METAPOSTGUI_RESOLVE_API=0 bash ../scripts/resolve-ports.sh",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "prepreview": "METAPOSTGUI_RESOLVE_API=0 bash ../scripts/resolve-ports.sh",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.8.0",
+    "@codemirror/lang-cpp": "^6.0.2",
+    "@codemirror/language": "^6.12.3",
+    "@codemirror/lint": "^6.9.7",
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.36.5",
+    "@lezer/highlight": "^1.2.3",
+    "codemirror-lang-latex": "^0.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vite": "^6.2.4",
+    "vitest": "^3.0.9"
+  }
+}

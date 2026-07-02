@@ -1,0 +1,23 @@
+{
+  "id": "mark-equal",
+  "title": "等长标记",
+  "description": "mark_equal(a,b,n) — GPL-3.0 · thruston/metapost-examples",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "mark_equal.mp",
+  "tool": {
+    "name": "mark_equal",
+    "description": "在边上绘制 n 条短刻线，表示线段等长",
+    "paramDocs": {
+      "a": "边的起点",
+      "b": "边的终点",
+      "n": "刻线条数"
+    },
+    "defaults": {
+      "a": "(-1u,0)",
+      "b": "(1u,0)",
+      "n": "2"
+    }
+  }
+}

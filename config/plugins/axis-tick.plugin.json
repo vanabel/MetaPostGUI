@@ -1,0 +1,21 @@
+{
+  "id": "axis-tick",
+  "title": "示例：带标签的横轴刻度",
+  "description": "演示 input 字段引用同目录 .mp 文件",
+  "version": "1.0.0",
+  "author": "MetaPostGUI",
+  "enabled": true,
+  "input": "axis-tick.mp",
+  "tool": {
+    "name": "drawAxisTick",
+    "description": "绘制带箭头的横轴线段，并在末端标注文字",
+    "paramDocs": {
+      "len": "轴线长度（与 u 相乘后绘制）",
+      "lab": "末端标签文字（btex … etex）"
+    },
+    "defaults": {
+      "len": "3",
+      "lab": "btex $x$ etex"
+    }
+  }
+}

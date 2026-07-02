@@ -1,0 +1,262 @@
+{
+  "top_macros": [
+    {
+      "name": "arrowhead",
+      "count": 12
+    },
+    {
+      "name": "f",
+      "count": 10
+    },
+    {
+      "name": "doit",
+      "count": 6
+    },
+    {
+      "name": "project",
+      "count": 4
+    },
+    {
+      "name": "mylabel",
+      "count": 4
+    },
+    {
+      "name": "degrade",
+      "count": 3
+    },
+    {
+      "name": "axes",
+      "count": 2
+    },
+    {
+      "name": "couleur",
+      "count": 2
+    },
+    {
+      "name": "dessine",
+      "count": 2
+    },
+    {
+      "name": "milieu",
+      "count": 2
+    },
+    {
+      "name": "cardiodide",
+      "count": 2
+    },
+    {
+      "name": "inversion",
+      "count": 2
+    },
+    {
+      "name": "curve",
+      "count": 2
+    },
+    {
+      "name": "sphere_with_holes",
+      "count": 2
+    },
+    {
+      "name": "koch",
+      "count": 2
+    },
+    {
+      "name": "pascal",
+      "count": 2
+    },
+    {
+      "name": "barycentre",
+      "count": 2
+    },
+    {
+      "name": "boxit",
+      "count": 2
+    },
+    {
+      "name": "draw_angle",
+      "count": 1
+    },
+    {
+      "name": "draw_angle_",
+      "count": 1
+    },
+    {
+      "name": "bezier",
+      "count": 1
+    },
+    {
+      "name": "compute_curve",
+      "count": 1
+    },
+    {
+      "name": "g",
+      "count": 1
+    },
+    {
+      "name": "courbe",
+      "count": 1
+    },
+    {
+      "name": "newton",
+      "count": 1
+    },
+    {
+      "name": "random_path",
+      "count": 1
+    },
+    {
+      "name": "intersections",
+      "count": 1
+    },
+    {
+      "name": "auto_intersections",
+      "count": 1
+    },
+    {
+      "name": "milieu_time",
+      "count": 1
+    },
+    {
+      "name": "ellipse",
+      "count": 1
+    }
+  ],
+  "examples_with_inline_macros": 73,
+  "samples": [
+    {
+      "id": "tlhiv-050",
+      "macros": [
+        "draw_angle",
+        "draw_angle_"
+      ]
+    },
+    {
+      "id": "tlhiv-062",
+      "macros": [
+        "bezier"
+      ]
+    },
+    {
+      "id": "tlhiv-112",
+      "macros": [
+        "compute_curve",
+        "f",
+        "g"
+      ]
+    },
+    {
+      "id": "tlhiv-128",
+      "macros": [
+        "f",
+        "axes",
+        "courbe",
+        "newton"
+      ]
+    },
+    {
+      "id": "tlhiv-144",
+      "macros": [
+        "degrade"
+      ]
+    },
+    {
+      "id": "tlhiv-145",
+      "macros": [
+        "couleur",
+        "degrade"
+      ]
+    },
+    {
+      "id": "tlhiv-146",
+      "macros": [
+        "degrade"
+      ]
+    },
+    {
+      "id": "tlhiv-149",
+      "macros": [
+        "couleur"
+      ]
+    },
+    {
+      "id": "tlhiv-152",
+      "macros": [
+        "project",
+        "f"
+      ]
+    },
+    {
+      "id": "tlhiv-153",
+      "macros": [
+        "project",
+        "f"
+      ]
+    },
+    {
+      "id": "tlhiv-154",
+      "macros": [
+        "project",
+        "f"
+      ]
+    },
+    {
+      "id": "tlhiv-155",
+      "macros": [
+        "f",
+        "dessine",
+        "project",
+        "f"
+      ]
+    },
+    {
+      "id": "tlhiv-156",
+      "macros": [
+        "random_path",
+        "intersections"
+      ]
+    },
+    {
+      "id": "tlhiv-157",
+      "macros": [
+        "auto_intersections"
+      ]
+    },
+    {
+      "id": "tlhiv-159",
+      "macros": [
+        "milieu"
+      ]
+    },
+    {
+      "id": "tlhiv-160",
+      "macros": [
+        "milieu_time",
+        "arrowhead"
+      ]
+    },
+    {
+      "id": "tlhiv-161",
+      "macros": [
+        "arrowhead"
+      ]
+    },
+    {
+      "id": "tlhiv-162",
+      "macros": [
+        "arrowhead"
+      ]
+    },
+    {
+      "id": "tlhiv-163",
+      "macros": [
+        "arrowhead"
+      ]
+    },
+    {
+      "id": "tlhiv-170",
+      "macros": [
+        "cardiodide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+u:=2u;
+coordtwo(origin, 10u, 0, 0);
+path pat;
+pat:=fullcircle scaled 8u;
+draw pat;
+draw (-4.5u,0)--(-2u,0);
+pair P,R,Q;
+numeric t;
+t=1.2;
+R=point t of pat;
+P:= ((origin -- (-20u)*unitvector(direction t of pat)) shifted R) intersectionpoint (origin--10u*right);
+Q:=(xpart(R),0);
+draw 1.05[R,P]--1.2[P,R]--R--1.2[Q,R]--2.2[R,Q] dashed evenly;
+dotlabel.bot(btex $P$ etex, P);
+dotlabel.llft(btex $A$ etex, (-4u,0));
+dotlabel.lrt(btex $B$ etex, (4u,0));
+dotlabel.lrt(btex $Q$ etex, Q);

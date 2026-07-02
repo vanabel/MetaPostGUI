@@ -1,0 +1,41 @@
+% MetaPostGUI — default mpostdef (mpostinl)
+\begin{mpostdef}
+u=10pt;
+numeric pi; pi := 3.1415926;
+numeric radian; radian := 180/pi;
+
+def drawgrid(expr len) =
+  save xx, yy, xmax, ymax, xmin, ymin;
+  numeric xmax, ymax, xmin, ymin;
+  path xx, yy;
+  xmax=ymax=len; xmin=ymin=-len;
+  xx = ((xmin,0) -- (xmax,0)) scaled u;
+  yy = ((0,ymin) -- (0,ymax)) scaled u;
+  drawoptions(dashed evenly scaled .5 withcolor .7 white);
+  for i = ceiling ymin upto floor ymax:
+    if (i mod 5=0):
+      draw xx shifted (0,i*u) withpen pencircle scaled 1pt;
+    else:
+      draw xx shifted (0,i*u);
+    fi
+  endfor
+  for i = ceiling xmin upto floor xmax:
+    if (i mod 5=0):
+      draw yy shifted (i*u,0) withpen pencircle scaled 1pt;
+    else:
+      draw yy shifted (i*u,0);
+    fi
+  endfor
+  drawoptions();
+enddef;
+
+vardef coordtwo(expr O, len, dr, dimension) =
+  if dimension > 0:
+    drawarrow ((.2len*left--.8*len*right) scaled 0.5) rotated (dr-135) shifted O;
+  fi;
+  if dimension <> 2:
+    drawarrow (.2len*left--.8*len*right) rotated (dr+90) shifted O;
+  fi;
+  drawarrow (.2len*left--.8*len*right) rotated dr shifted O;
+enddef;
+\end{mpostdef}

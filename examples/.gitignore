@@ -1,0 +1,2 @@
+examples/reports/*.json
+!examples/reports/.gitkeep

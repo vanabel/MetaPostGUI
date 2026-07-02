@@ -1,0 +1,29 @@
+{
+  "id": "mark-angle",
+  "title": "角标记",
+  "description": "angle_mark(a,o,b,r,label,shade) — GPL-3.0 · thruston/metapost-examples (markle.mp)",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "markle.mp",
+  "tool": {
+    "name": "angle_mark",
+    "description": "在顶点 o 处绘制圆弧角标并标注角度符号",
+    "paramDocs": {
+      "a": "角的一条边上的点",
+      "o": "角的顶点",
+      "b": "角的另一条边上的点",
+      "r": "圆弧半径",
+      "t": "角标文字（常为 btex $\\\\theta$ etex）",
+      "shade": "标签颜色"
+    },
+    "defaults": {
+      "a": "(-2u,1u)",
+      "o": "origin",
+      "b": "(2u,0.5u)",
+      "r": "6pt",
+      "t": "btex $\\\\theta$ etex",
+      "shade": "blue"
+    }
+  }
+}

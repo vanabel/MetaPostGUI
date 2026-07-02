@@ -1,0 +1,6964 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-22T14:59:44.611441+00:00",
+  "examples": [
+    {
+      "id": "tlhiv-001",
+      "title": "Fig 1: A--B--C;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/001.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-002",
+      "title": "基础：闭合三角形 cycle",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/002.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 30,
+      "featured_reason": "闭合折线与 cycle 的代表",
+      "description": "用三点构成闭合路径，代表 A--B--C--cycle 语法。"
+    },
+    {
+      "id": "tlhiv-003",
+      "title": "Fig 3: A[0]--A[1]--A[2]--A[3]--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/003.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-004",
+      "title": "基础：点与画笔",
+      "description": "用 withpen pencircle 把 pair 坐标画成点。",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/004.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 1.0,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 40,
+      "featured_reason": "点和 withpen 标记的代表"
+    },
+    {
+      "id": "tlhiv-005",
+      "title": "Fig 5: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/005.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-006",
+      "title": "Fig 6: A--B--C--D--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/006.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-007",
+      "title": "Fig 7: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/007.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-008",
+      "title": "Fig 8: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/008.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-009",
+      "title": "Fig 9: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/009.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-010",
+      "title": "Fig 10: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/010.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-011",
+      "title": "Fig 11: A--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/011.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-012",
+      "title": "Fig 12: A--B withpen pencircle scaled 2bp withcolor .8wh",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/012.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-013",
+      "title": "Fig 13: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/013.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-014",
+      "title": "基础：虚线线段",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/014.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 50,
+      "featured_reason": "虚线样式代表",
+      "description": "覆盖 dashed evenly 与 dash 缩放。"
+    },
+    {
+      "id": "tlhiv-015",
+      "title": "Fig 15: (0,0)--(3cm,0)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/015.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-016",
+      "title": "Fig 16: (0,0)--(3cm,0) dashed dashpattern(on 1bp off 2bp",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/016.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-017",
+      "title": "Fig 17: C--B--A;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/017.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-018",
+      "title": "Fig 18: C--B--A--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/018.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-019",
+      "title": "Fig 19: (-1.5cm,0)--(1.5cm,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/019.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-020",
+      "title": "Figure 20",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/020.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-021",
+      "title": "Fig 21: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/021.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-022",
+      "title": "Fig 22: A--B--C--cycle withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/022.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-023",
+      "title": "Fig 23: A--B--C--cycle withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/023.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-024",
+      "title": "Figure 24",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/024.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-025",
+      "title": "Fig 25: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/025.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-026",
+      "title": "Fig 26: (-1.5cm,0)--(1.5cm,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/026.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-027",
+      "title": "基础：点标签位置",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/027.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen",
+        "label"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "展示 label.top/bot/rt/lft 的基本位置控制。"
+    },
+    {
+      "id": "tlhiv-028",
+      "title": "Fig 28: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/028.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen",
+        "label"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-029",
+      "title": "Figure 29",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/029.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-030",
+      "title": "Fig 30: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/030.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-031",
+      "title": "Fig 31: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/031.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "label"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-032",
+      "title": "Fig 32: A--D; draw A--E; draw A--F;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/032.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-033",
+      "title": "Fig 33: fullcircle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/033.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-034",
+      "title": "Fig 34: (0,0) withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/034.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-035",
+      "title": "Fig 35: (0,0) withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/035.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-036",
+      "title": "Fig 36: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/036.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-037",
+      "title": "Fig 37: (0,0) .. (0,1cm) .. (1cm,0) .. (1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/037.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-038",
+      "title": "Fig 38: (0,0) -- (0,1cm) .. (1cm,0) .. (1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/038.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-039",
+      "title": "Fig 39: (0,0) --- (0,1cm) .. (1cm,0) .. (1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/039.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-040",
+      "title": "Fig 40: (0,0) .. (0,1cm) .. (1cm,0) .. (1cm,1cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/040.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-041",
+      "title": "Fig 41: A..B..C..D..cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/041.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-042",
+      "title": "Fig 42: (0,0) .. (1cm,1cm) .. cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/042.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-043",
+      "title": "中等：端点方向约束",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/043.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "required"
+      },
+      "featured_level": "intermediate",
+      "featured_order": 120,
+      "featured_reason": "端点方向向量代表",
+      "description": "用显式方向向量控制曲线进入和离开方向。"
+    },
+    {
+      "id": "tlhiv-044",
+      "title": "Fig 44: (0,0){dir 90} .. (2cm,0){dir 0};",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/044.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-045",
+      "title": "Fig 45: (0,0){up} .. (2cm,0){right};",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/045.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-046",
+      "title": "Fig 46: (0,0){up} .. (2cm,0){up};",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/046.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-047",
+      "title": "Fig 47: (0,0){up} .. (2cm,0){up} .. cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/047.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-048",
+      "title": "Fig 48: (0,0) -- 2cm*dir 0;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/048.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-049",
+      "title": "Fig 49: (0,0) -- 2cm*dir 0;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/049.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-050",
+      "title": "Fig 50: (O + d*unitvector(A-O))",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/050.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-051",
+      "title": "Fig 51: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/051.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-052",
+      "title": "Fig 52: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/052.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-053",
+      "title": "Fig 53: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/053.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-054",
+      "title": "Fig 54: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/054.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-055",
+      "title": "Fig 55: (0,0) .. (1cm,1cm) .. (2cm,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/055.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-056",
+      "title": "Fig 56: (0,0) .. tension 2 ..",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/056.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-057",
+      "title": "Fig 57: (0,u)         {right}    ..",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/057.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-058",
+      "title": "Fig 58: (0,u)         {right}    .. tension 2 ..",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/058.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-059",
+      "title": "Fig 59: (0,u)         {right}    .. tension 4 ..",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/059.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-060",
+      "title": "中等：Bezier 控制点",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/060.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "required"
+      },
+      "featured_level": "intermediate",
+      "featured_order": 130,
+      "featured_reason": "Bezier controls 与辅助线代表",
+      "description": "覆盖 controls、辅助虚线和箭头。"
+    },
+    {
+      "id": "tlhiv-061",
+      "title": "Fig 61: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/061.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-062",
+      "title": "Fig 62: a[1234] withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/062.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-063",
+      "title": "Fig 63: (0,0){up} .. (1cm, 1mm) .. (2cm,0){down};",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/063.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-064",
+      "title": "Fig 64: (0,0){up} ... (1cm, 1mm) ... (2cm,0){down};",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/064.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-065",
+      "title": "Fig 65: (0,0){curl 0} .. (0,1cm)..(1cm,0)..(1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/065.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-066",
+      "title": "Fig 66: (0,0){curl 1} .. (0,1cm)..(1cm,0)..(1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/066.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-067",
+      "title": "Fig 67: (0,0){curl 2} .. (0,1cm)..(1cm,0)..(1cm,1cm);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/067.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-068",
+      "title": "Fig 68: A--B--C--D--cycle withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/068.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-069",
+      "title": "Fig 69: A--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/069.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-070",
+      "title": "Fig 70: A--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/070.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-071",
+      "title": "Fig 71: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/071.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-072",
+      "title": "Fig 72: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/072.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-073",
+      "title": "Fig 73: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/073.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-074",
+      "title": "Fig 74: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/074.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-075",
+      "title": "Fig 75: A--B--C--D--E--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/075.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-076",
+      "title": "Fig 76: A--C--E--B--D--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/076.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-077",
+      "title": "Fig 77: A--C--E--B--D--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/077.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-078",
+      "title": "Fig 78: p withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/078.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-079",
+      "title": "Fig 79: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/079.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-080",
+      "title": "Fig 80: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/080.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen",
+        "label"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-081",
+      "title": "Fig 81: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/081.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-082",
+      "title": "Fig 82: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/082.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-083",
+      "title": "Fig 83: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/083.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-084",
+      "title": "Fig 84: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/084.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-085",
+      "title": "Fig 85: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/085.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-086",
+      "title": "Fig 86: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/086.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-087",
+      "title": "Figure 87",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/087.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-088",
+      "title": "Figure 88",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/088.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-089",
+      "title": "Figure 89",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/089.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-090",
+      "title": "Fig 90: fullcircle scaled 1cm;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/090.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-091",
+      "title": "Fig 91: pic;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/091.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-092",
+      "title": "Fig 92: mickey;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/092.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-093",
+      "title": "Fig 93: mickey transformed T;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/093.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-094",
+      "title": "Fig 94: mickey transformed T;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/094.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-095",
+      "title": "Fig 95: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/095.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-096",
+      "title": "Fig 96: p withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/096.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-097",
+      "title": "Fig 97: c[0]; draw c[1]; draw c[2];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/097.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-098",
+      "title": "Fig 98: c[0]; draw c[1]; draw c[2]; draw c[3];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/098.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-099",
+      "title": "Fig 99: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/099.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-100",
+      "title": "Fig 100: origin--A;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/100.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-101",
+      "title": "Fig 101: origin--A;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/101.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-102",
+      "title": "Fig 102: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "label",
+      "figure_file": "tlhiv/102.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "label"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-103",
+      "title": "Fig 103: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/103.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-104",
+      "title": "高级：角平分线构造",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/104.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "覆盖 whatever 线性约束、角度计算和构造圆。"
+    },
+    {
+      "id": "tlhiv-105",
+      "title": "Fig 105: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/105.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-106",
+      "title": "Fig 106: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/106.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-107",
+      "title": "Fig 107: subpath(0,1) of p withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/107.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-108",
+      "title": "Fig 108: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/108.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-109",
+      "title": "Fig 109: a; draw b; draw c; draw d;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/109.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-110",
+      "title": "Fig 110: c[1] dashed evenly;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/110.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-111",
+      "title": "Fig 111: a; draw b; draw c;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/111.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-112",
+      "title": "Fig 112: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/112.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-113",
+      "title": "Fig 113: p; draw q;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/113.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-114",
+      "title": "Fig 114: p; draw q;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/114.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-115",
+      "title": "Fig 115: subpath(0,a-.02) of p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/115.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-116",
+      "title": "Fig 116: p[i];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/116.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-117",
+      "title": "Fig 117: p rotated 72i;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/117.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-118",
+      "title": "Fig 118: 1cm*right rotated (i*90)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/118.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-119",
+      "title": "Fig 119: for i=0 step 1 until 3:",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/119.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-120",
+      "title": "Fig 120: for i=0 step 1 until n-1:",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/120.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-121",
+      "title": "Fig 121: for i=0 step 1 until n-1:",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/121.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-122",
+      "title": "Fig 122: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/122.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-123",
+      "title": "Fig 123: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/123.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-124",
+      "title": "Fig 124: (-2u,0)--(2u,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/124.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-125",
+      "title": "Fig 125: (-2u,0)--(2u,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/125.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-126",
+      "title": "Fig 126: (-2u,0)--(2u,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/126.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-127",
+      "title": "Fig 127: (-2u,0)--(2u,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/127.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-128",
+      "title": "高级：函数与 Newton 迭代",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/128.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "覆盖函数宏、循环采样、坐标轴和迭代辅助线。"
+    },
+    {
+      "id": "tlhiv-129",
+      "title": "Figure 129",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/129.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-130",
+      "title": "Figure 130",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/130.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-131",
+      "title": "Figure 131",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/131.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-132",
+      "title": "Fig 132: A[i] withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/132.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-133",
+      "title": "Fig 133: A[i] withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/133.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-134",
+      "title": "Fig 134: A[i] withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/134.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-135",
+      "title": "Fig 135: A[i] -- A[i+1] -- B[i+1] -- B[i];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/135.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-136",
+      "title": "Fig 136: (O--A--C) rotated (i*360/n);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/136.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-137",
+      "title": "Fig 137: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/137.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-138",
+      "title": "Fig 138: P[i]   -- P[i+1];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/138.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-139",
+      "title": "Fig 139: P[i]   -- P[i+1];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/139.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-140",
+      "title": "Fig 140: fullcircle scaled 2cm withpen pencircle scaled 2",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/140.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-141",
+      "title": "Fig 141: p scaled u withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/141.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-142",
+      "title": "Fig 142: carre withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/142.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-143",
+      "title": "Figure 143",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/143.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-144",
+      "title": "高级：路径插值变形",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/144.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "覆盖 length、point of 和路径族插值。"
+    },
+    {
+      "id": "tlhiv-145",
+      "title": "Fig 145: (i/M) [ point 0 of p, point 0 of q ]",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/145.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-146",
+      "title": "Fig 146: (i/N)[ point 0 of p, point 0 of q ]",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/146.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-147",
+      "title": "Fig 147: for i=0 step 10 until 360:",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/147.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-148",
+      "title": "Fig 148: 2cm* (sind(2*i), cosd(3*i))",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/148.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-149",
+      "title": "Fig 149: 2cm* (sind(2*i), cosd(3*i))",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/149.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-150",
+      "title": "Fig 150: fullcircle scaled 4mm shifted P;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/150.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-151",
+      "title": "Fig 151: fullcircle scaled 4mm shifted P;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/151.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-152",
+      "title": "高级：曲面投影",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/152.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "用 project 宏把三维函数面投影成 MetaPost 图形。"
+    },
+    {
+      "id": "tlhiv-153",
+      "title": "Fig 153: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/153.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-154",
+      "title": "Figure 154",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/154.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-155",
+      "title": "Figure 155",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/155.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-156",
+      "title": "Fig 156: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/156.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-157",
+      "title": "Fig 157: A withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/157.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-158",
+      "title": "Fig 158: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/158.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-159",
+      "title": "Fig 159: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/159.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-160",
+      "title": "Fig 160: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/160.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-161",
+      "title": "Fig 161: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/161.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-162",
+      "title": "Fig 162: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/162.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-163",
+      "title": "Fig 163: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/163.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-164",
+      "title": "Fig 164: pic shifted( i*(B-A) + j*(C-A) );",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/164.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-165",
+      "title": "Fig 165: pic shifted( i*(B-A) + j*(C-A) );",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/165.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-166",
+      "title": "Fig 166: (ux*xmin,0) -- (ux*xmax,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/166.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-167",
+      "title": "Fig 167: (ux*xmin,0) -- (ux*xmax,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/167.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-168",
+      "title": "Fig 168: (ux*-.1,0) -- (ux*xmax,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/168.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-169",
+      "title": "Fig 169: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/169.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-170",
+      "title": "Fig 170: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/170.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-171",
+      "title": "Fig 171: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/171.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-172",
+      "title": "Fig 172: p withpen pencircle scaled 1bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/172.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-173",
+      "title": "Fig 173: inversion( z0, 2 (u**2), A )",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/173.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-174",
+      "title": "Fig 174: c[0];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/174.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-175",
+      "title": "Fig 175: c[i]; draw l[i];",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/175.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-176",
+      "title": "Fig 176: curve(a,b,c,d,e) ;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/176.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-177",
+      "title": "Fig 177: m--a; draw m--b; draw m--c;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/177.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-178",
+      "title": "Fig 178: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/178.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-179",
+      "title": "Fig 179: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/179.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-180",
+      "title": "Fig 180: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/180.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-181",
+      "title": "Fig 181: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/181.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-182",
+      "title": "Fig 182: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/182.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-183",
+      "title": "Fig 183: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/183.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-184",
+      "title": "Fig 184: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/184.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-185",
+      "title": "Fig 185: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/185.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-186",
+      "title": "Fig 186: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/186.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-187",
+      "title": "Fig 187: (0,0) .. (-u,u) .. (u,u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/187.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-188",
+      "title": "Fig 188: _apth t;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/188.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-189",
+      "title": "Fig 189: _apth t;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/189.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-190",
+      "title": "Fig 190: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/190.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen",
+        "label"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-191",
+      "title": "Fig 191: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/191.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen",
+        "label"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-192",
+      "title": "Fig 192: A withpen pencircle scaled 2bp withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/192.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen",
+        "label"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-193",
+      "title": "Fig 193: (0,i*u)--(n*u,i*u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/193.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-194",
+      "title": "Fig 194: ( (k,0)--(u,u-k) )",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/194.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-195",
+      "title": "Fig 195: (0,i*u)--(n*u,i*u);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/195.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-196",
+      "title": "高级：函数图像与矩形近似",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/196.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      },
+      "description": "覆盖自定义 axes、函数采样和矩形填充。"
+    },
+    {
+      "id": "tlhiv-197",
+      "title": "Fig 197: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/197.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-198",
+      "title": "Fig 198: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/198.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-199",
+      "title": "Figure 199",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/199.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-200",
+      "title": "Fig 200: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/200.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-201",
+      "title": "Fig 201: A--1/3[A,B]--C--2/3[A,B]--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/201.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-202",
+      "title": "Fig 202: A--1/3[A,B]--C--2/3[A,B]--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/202.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-203",
+      "title": "Fig 203: A--B--C--D--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/203.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-204",
+      "title": "Fig 204: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/204.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-205",
+      "title": "Fig 205: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/205.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-206",
+      "title": "Fig 206: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/206.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-207",
+      "title": "Fig 207: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/207.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-208",
+      "title": "Fig 208: A--B--C--cycle;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/208.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-209",
+      "title": "Fig 209: ( p[0] .. p[1] .. p[2] ) scaled u;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/209.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-210",
+      "title": "Fig 210: (u*normaldeviate, u*normaldeviate);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/210.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-211",
+      "title": "Fig 211: (u*uniformdeviate(1), u*uniformdeviate(1));",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/211.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-212",
+      "title": "Fig 212: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/212.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-213",
+      "title": "Fig 213: A--B;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/213.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-214",
+      "title": "Fig 214: B[i]--B[i+1] withpen pencircle scaled 2pt",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/214.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-215",
+      "title": "Fig 215: C;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/215.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-216",
+      "title": "Fig 216: C;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/216.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-217",
+      "title": "Figure 217",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/217.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-218",
+      "title": "Fig 218: C;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/218.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-219",
+      "title": "Figure 219",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/219.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-220",
+      "title": "Figure 220",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/220.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-221",
+      "title": "Fig 221: A[i] withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/221.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-222",
+      "title": "Fig 222: A[i] withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/222.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-223",
+      "title": "Fig 223: fullcircle scaled i;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/223.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-224",
+      "title": "Fig 224: (-2u,0) -- (2u,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/224.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-225",
+      "title": "Fig 225: p withpen pencircle scaled 5mm withcolor .8white",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/225.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-226",
+      "title": "Fig 226: p withpen pencircle scaled 5mm withcolor .8white",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/226.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-227",
+      "title": "Fig 227: p withpen pencircle scaled 5mm withcolor .8white",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/227.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-228",
+      "title": "Fig 228: fullcircle scaled 2cm;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/228.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-229",
+      "title": "Fig 229: fullcircle shifted (.5,.5) xscaled 18.2cm yscale",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/229.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-230",
+      "title": "Fig 230: fullcircle shifted (.5,.5) xscaled 18.2cm yscale",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/230.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-231",
+      "title": "Fig 231: A withpen pencircle scaled 2pt )",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/231.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-232",
+      "title": "Fig 232: O--inversion(O,k,point i of M)--(point i of M);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/232.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-233",
+      "title": "Fig 233: p withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/233.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-234",
+      "title": "Fig 234: TEX(\"$\\sin 60 = \" & decimal(x) & \"$\");",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/234.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "btex"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-235",
+      "title": "Fig 235: (0,0) -- (largeur(s),0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/235.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "C",
+      "features": [
+        "btex",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-236",
+      "title": "Fig 236: (0,0) -- (2cm,0);",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/236.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-237",
+      "title": "Fig 237: _myfill_p t withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/237.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-238",
+      "title": "Figure 238",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/238.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-239",
+      "title": "Figure 239",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/239.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-240",
+      "title": "Figure 240",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/240.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-241",
+      "title": "Figure 241",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/241.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-242",
+      "title": "Figure 242",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/242.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-243",
+      "title": "Fig 243: (0,0) -- 1cm*right rotated i cutbefore bpath.a;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/243.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-244",
+      "title": "Fig 244: a.c {dir 45} .. b.c {dir -45}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/244.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-245",
+      "title": "Fig 245: a.c {dir 45} .. b.c {dir -45}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/245.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-246",
+      "title": "Fig 246: a.c {dir 45} .. b.c {dir -45}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/246.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-247",
+      "title": "Figure 247",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/247.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-248",
+      "title": "Figure 248",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/248.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-249",
+      "title": "Figure 249",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/249.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-250",
+      "title": "Figure 250",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/250.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-251",
+      "title": "Fig 251: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "basic",
+      "figure_file": "tlhiv/251.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-252",
+      "title": "Fig 252: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/252.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-253",
+      "title": "Fig 253: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/253.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [
+        "btex",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-254",
+      "title": "Fig 254: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/254.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-255",
+      "title": "Fig 255: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/255.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-256",
+      "title": "Fig 256: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/256.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-257",
+      "title": "Fig 257: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/257.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-258",
+      "title": "Fig 258: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/258.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-259",
+      "title": "Fig 259: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/259.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-260",
+      "title": "Fig 260: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/260.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-261",
+      "title": "Fig 261: (0,0) -- (5cm,0) withcolor red;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/261.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "input"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-262",
+      "title": "Fig 262: b[i].c {up} .. a[i+1].c {down}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "path",
+      "figure_file": "tlhiv/262.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-263",
+      "title": "Fig 263: a.c -- b.c cutbefore bpath.a cutafter bpath.b;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/263.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-264",
+      "title": "Fig 264: a.c -- b.c cutbefore bpath.a cutafter bpath.b;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/264.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-265",
+      "title": "Fig 265: a.c -- b.c cutbefore bpath.a cutafter bpath.b;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/265.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-266",
+      "title": "Figure 266",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/266.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-267",
+      "title": "Fig 267: a.c {dir 45} .. b.c {dir -45}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/267.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-268",
+      "title": "Fig 268: a.c {dir 45} .. b.c {dir -45}",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/268.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "spline"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-269",
+      "title": "Fig 269: pp",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/269.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "for-loop",
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-270",
+      "title": "Fig 270: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/270.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-271",
+      "title": "Fig 271: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/271.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-272",
+      "title": "Fig 272: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/272.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-273",
+      "title": "Fig 273: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/273.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-274",
+      "title": "Fig 274: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/274.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-275",
+      "title": "Fig 275: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/275.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-276",
+      "title": "Fig 276: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/276.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-277",
+      "title": "Fig 277: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/277.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-278",
+      "title": "Fig 278: (0,0) withpen pencircle scaled 4bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/278.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-279",
+      "title": "Fig 279: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/279.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-280",
+      "title": "Fig 280: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/280.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-281",
+      "title": "Fig 281: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/281.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-282",
+      "title": "Fig 282: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/282.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-283",
+      "title": "Fig 283: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/283.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-284",
+      "title": "Fig 284: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/284.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-285",
+      "title": "Fig 285: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/285.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-286",
+      "title": "Fig 286: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/286.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-287",
+      "title": "Fig 287: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/287.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-288",
+      "title": "Fig 288: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/288.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-289",
+      "title": "Fig 289: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/289.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-290",
+      "title": "Fig 290: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/290.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-291",
+      "title": "Fig 291: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/291.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "cycle"
+      ],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-292",
+      "title": "Fig 292: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/292.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-293",
+      "title": "Fig 293: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/293.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-294",
+      "title": "Fig 294: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/294.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-295",
+      "title": "Fig 295: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/295.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "btex",
+        "for-loop"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-296",
+      "title": "Fig 296: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/296.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-297",
+      "title": "Fig 297: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/297.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-298",
+      "title": "Fig 298: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/298.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-299",
+      "title": "Fig 299: begingraph(3cm,2cm)",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/299.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-300",
+      "title": "Fig 300: p;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/300.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "spline",
+        "pen",
+        "label"
+      ],
+      "tier": "C",
+      "features": [
+        "btex",
+        "for-loop",
+        "inline-def",
+        "input"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-301",
+      "title": "Fig 301: p withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/301.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-302",
+      "title": "Fig 302: p withpen pencircle scaled 2bp;",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "pen",
+      "figure_file": "tlhiv/302.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "arrow",
+        "pen"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-303",
+      "title": "Fig 303: TEX( \"Nous sommes le \"&",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "advanced",
+      "figure_file": "tlhiv/303.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [],
+      "tier": "C",
+      "features": [
+        "btex"
+      ],
+      "expect": {
+        "compile": "skip",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-304",
+      "title": "Fig 304: p withpen pencircle scaled 5mm withcolor .8white",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/304.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "tlhiv-305",
+      "title": "Fig 305: p withpen pencircle scaled 5mm withcolor .8white",
+      "source": "tlhiv",
+      "source_url": "http://www.tlhiv.org/MetaPost/examples/examples.html",
+      "category": "macro",
+      "figure_file": "tlhiv/305.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen"
+      ],
+      "tier": "C",
+      "features": [
+        "inline-def"
+      ],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.0,
+        "canvas_sync": "none"
+      }
+    },
+    {
+      "id": "curated-grid-segment",
+      "title": "基础：网格 + 线段",
+      "description": "最小可编辑例子，覆盖 drawgrid、scaled u 与普通线段。",
+      "source": "curated",
+      "category": "basic",
+      "figure_file": "curated/grid-segment.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "drawgrid",
+        "segment"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 10,
+      "featured_reason": "网格、单位缩放与线段的最小组合"
+    },
+    {
+      "id": "curated-bezier",
+      "title": "中等：平滑路径",
+      "source": "curated",
+      "category": "path",
+      "figure_file": "curated/bezier.mp",
+      "mpostdef": "",
+      "plugins": [],
+      "tags": [
+        "mpath"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "intermediate",
+      "featured_order": 110,
+      "featured_reason": "平滑路径入门代表",
+      "description": "覆盖 .. 路径与 dir 方向控制。"
+    },
+    {
+      "id": "curated-circle-arrow",
+      "title": "基础：圆与箭头",
+      "source": "curated",
+      "category": "basic",
+      "figure_file": "curated/circle-arrow.mp",
+      "mpostdef": "",
+      "plugins": [],
+      "tags": [
+        "circle",
+        "arrow"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.6,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 20,
+      "featured_reason": "圆和箭头是绘图入口的常用组合",
+      "description": "覆盖 fullcircle、shifted 与 drawarrow。"
+    },
+    {
+      "id": "thruston-mark-angle-demo",
+      "title": "中等：角标记宏",
+      "description": "展示 angle_mark 这类几何标注宏。",
+      "source": "thruston",
+      "source_url": "https://github.com/thruston/metapost-examples",
+      "category": "macro",
+      "figure_file": "curated/mark-angle-demo.mp",
+      "mpostdef": "",
+      "plugins": [
+        "mark-angle"
+      ],
+      "tags": [
+        "macro",
+        "angle"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "canvas_sync": "required"
+      },
+      "featured_level": "intermediate",
+      "featured_order": 150,
+      "featured_reason": "几何角标宏代表"
+    },
+    {
+      "id": "thruston-arrow-label-demo",
+      "title": "中等：箭头标签宏",
+      "source": "thruston",
+      "source_url": "https://github.com/thruston/metapost-examples",
+      "category": "label",
+      "figure_file": "curated/arrow-label-demo.mp",
+      "mpostdef": "",
+      "plugins": [
+        "arrow-label"
+      ],
+      "tags": [
+        "macro",
+        "arrow",
+        "label"
+      ],
+      "tier": "B",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "canvas_sync": "required"
+      },
+      "featured_level": "intermediate",
+      "featured_order": 140,
+      "featured_reason": "插件宏标签代表",
+      "description": "展示插件宏如何把带标签的箭头封装为可复用命令。"
+    },
+    {
+      "id": "curated-tangent-coordtwo",
+      "title": "高级：坐标轴与切线构造",
+      "description": "覆盖 coordtwo、圆路径、point/direction of path、intersectionpoint 与 dotlabel。",
+      "source": "curated",
+      "category": "advanced",
+      "figure_file": "curated/tangent-coordtwo.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "coordtwo",
+        "circle",
+        "tangent",
+        "label"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "advanced",
+      "featured_order": 210,
+      "featured_reason": "默认坐标轴宏与圆切线构造代表"
+    },
+    {
+      "id": "curated-line-intersection",
+      "title": "高级：直线交点构造",
+      "description": "用 whatever[A,B]=whatever[C,D] 表达两直线交点，并同步为点标记。",
+      "source": "curated",
+      "category": "advanced",
+      "figure_file": "curated/line-intersection.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "intersection",
+        "whatever",
+        "label"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "advanced",
+      "featured_order": 220,
+      "featured_reason": "线性约束与交点计算代表"
+    },
+    {
+      "id": "curated-path-direction",
+      "title": "高级：路径取点与方向",
+      "description": "用 point t of p 和 direction t of p 在曲线上构造切向箭头。",
+      "source": "curated",
+      "category": "advanced",
+      "figure_file": "curated/path-direction.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "point-of",
+        "direction",
+        "arrow"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "advanced",
+      "featured_order": 230,
+      "featured_reason": "路径参数和切向量代表"
+    },
+    {
+      "id": "curated-path-interpolation",
+      "title": "高级：路径插值",
+      "description": "在两条路径的对应参数点之间插值得到第三条路径。",
+      "source": "curated",
+      "category": "advanced",
+      "figure_file": "curated/path-interpolation.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "point-of",
+        "interpolation",
+        "mpath"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "advanced",
+      "featured_order": 240,
+      "featured_reason": "路径取点和线性插值代表"
+    },
+    {
+      "id": "curated-plugin-composition",
+      "title": "高级：插件标注组合",
+      "description": "组合 arrow_label 和 angle_mark 两个插件宏，并保持绘图区预览与源码宏调用一致。",
+      "source": "curated",
+      "category": "advanced",
+      "figure_file": "curated/plugin-composition.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [
+        "arrow-label",
+        "mark-angle"
+      ],
+      "tags": [
+        "plugin",
+        "macro",
+        "angle",
+        "arrow"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "advanced",
+      "featured_order": 250,
+      "featured_reason": "插件宏组合预览代表"
+    },
+    {
+      "id": "curated-label-position",
+      "title": "基础：点标签位置",
+      "description": "展示 label.top/bot/rt/lft 的基本位置控制。",
+      "source": "curated",
+      "category": "basic",
+      "figure_file": "curated/label-position.mp",
+      "mpostdef": "",
+      "mposttex": "",
+      "plugins": [],
+      "tags": [
+        "pen",
+        "label"
+      ],
+      "tier": "A",
+      "features": [],
+      "expect": {
+        "compile": "pass",
+        "parse_coverage_min": 0.8,
+        "canvas_sync": "required"
+      },
+      "featured_level": "basic",
+      "featured_order": 60,
+      "featured_reason": "四向标签代表"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+u:=1u;
+path p;
+pair P,T;
+numeric t;
+p:=(-4u,-1u)..(-2u,2u)..(1u,1u)..(4u,3u);
+t=1.6;
+P=point t of p;
+T=P+1.5u*unitvector(direction t of p);
+draw p;
+drawarrow P--T;
+dotlabel.bot(btex $P$ etex, P);

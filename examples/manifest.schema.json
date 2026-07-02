@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metapostgui.local/examples/manifest.schema.json",
+  "title": "MetaPostGUI Examples Manifest",
+  "type": "object",
+  "required": ["version", "examples"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "generated_at": { "type": "string" },
+    "examples": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/example" }
+    }
+  },
+  "$defs": {
+    "example": {
+      "type": "object",
+      "required": ["id", "title", "source", "category", "tier", "expect"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "source": { "type": "string", "enum": ["tlhiv", "curated", "thruston", "builtin"] },
+        "source_url": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": ["basic", "path", "pen", "label", "macro", "advanced"]
+        },
+        "figure": { "type": "string" },
+        "figure_file": { "type": "string" },
+        "mpostdef": { "type": "string" },
+        "mposttex": { "type": "string" },
+        "plugins": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tier": { "type": "string", "enum": ["A", "B", "C"] },
+        "features": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "featured_level": {
+          "type": "string",
+          "enum": ["basic", "intermediate", "advanced"]
+        },
+        "featured_order": { "type": "integer", "minimum": 0 },
+        "featured_reason": { "type": "string" },
+        "expect": {
+          "type": "object",
+          "required": ["compile"],
+          "properties": {
+            "compile": { "type": "string", "enum": ["pass", "skip", "fail"] },
+            "parse_coverage_min": { "type": "number", "minimum": 0, "maximum": 1 },
+            "canvas_sync": {
+              "type": "string",
+              "enum": ["required", "optional", "none"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

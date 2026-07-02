@@ -1,0 +1,13 @@
+{
+  "name": "metapostgui",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.5.3",
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "dev": "./scripts/dev.sh",
+    "dev:api": "./scripts/serve-api.sh",
+    "dev:web": "pnpm --dir web dev",
+    "build": "pnpm --dir web build"
+  }
+}

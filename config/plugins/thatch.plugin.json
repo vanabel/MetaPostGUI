@@ -1,0 +1,17 @@
+{
+  "id": "thatch",
+  "title": "剖面线填充",
+  "description": "rule(path) 剖面线 — GPL-3.0 · thruston/metapost-examples",
+  "version": "1.0.0",
+  "author": "thruston (GPL-3.0)",
+  "enabled": true,
+  "input": "thatch.mp",
+  "tool": {
+    "name": "rule",
+    "description": "定义剖面线填充图案，须在 withpattern(rule(闭合路径)) 中使用",
+    "paramDocs": {
+      "p": "要填充的闭合 path"
+    },
+    "defaults": {}
+  }
+}

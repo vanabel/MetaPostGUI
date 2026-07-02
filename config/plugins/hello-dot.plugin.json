@@ -1,0 +1,14 @@
+{
+  "id": "hello-dot",
+  "title": "示例：原点标记",
+  "description": "在 origin 画一个小圆点，演示最小插件结构",
+  "version": "1.0.0",
+  "author": "MetaPostGUI",
+  "enabled": true,
+  "macros": "def hellodot =\n  drawdot(origin) scaled u withpen pencircle scaled 2pt;\nenddef;",
+  "tool": {
+    "name": "hellodot",
+    "description": "在原点绘制一个小圆点（无参数宏）",
+    "defaults": {}
+  }
+}
