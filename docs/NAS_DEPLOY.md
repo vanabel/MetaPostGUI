@@ -178,11 +178,23 @@ pnpm run docker:logs
 默认映射：
 
 ```text
-NAS:18080 -> container:18080
+NAS:${METAPOSTGUI_DOCKER_WEB_PORT:-18080} -> container:18080
 container internal API: 127.0.0.1:18765
 ```
 
-只需要让 Cloudflare Tunnel / 反代指向 `http://127.0.0.1:18080` 或 `http://NAS-IP:18080`。不要单独暴露 API 端口。
+只需要让 Cloudflare Tunnel / 反代指向宿主机 Web 端口，例如 `http://127.0.0.1:18080` 或 `http://NAS-IP:18080`。不要单独暴露 API 端口。
+
+若希望 NAS 端口改为 `19904`，在 `.env` 或 Synology Project 环境变量中设置：
+
+```bash
+METAPOSTGUI_DOCKER_WEB_PORT=19904
+```
+
+此时映射为：
+
+```text
+NAS:19904 -> container:18080
+```
 
 `docker-compose.yml` 默认写了：
 
@@ -197,6 +209,12 @@ METAPOSTGUI_CORS_ORIGINS: https://mpost.vanabel.cn
 
 ```bash
 curl http://127.0.0.1:18080/api/health
+```
+
+如果改了 `METAPOSTGUI_DOCKER_WEB_PORT=19904`，健康检查改用：
+
+```bash
+curl http://127.0.0.1:19904/api/health
 ```
 
 返回 `ok: true` 且 `mpost` 有路径即可。

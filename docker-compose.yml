@@ -15,7 +15,7 @@ services:
       METAPOSTGUI_ALLOWED_HOSTS: mpost.vanabel.cn
       METAPOSTGUI_CORS_ORIGINS: https://mpost.vanabel.cn
     ports:
-      - "18080:18080"
+      - "${METAPOSTGUI_DOCKER_WEB_PORT:-18080}:18080"
     healthcheck:
       test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:18080/api/health >/dev/null"]
       interval: 30s
