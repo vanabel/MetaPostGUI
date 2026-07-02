@@ -156,6 +156,15 @@ cp .env.example .env
 # 可改 METAPOSTGUI_WEB_PORT、METAPOSTGUI_API_PORT
 ```
 
+Cloudflare Tunnel / 反代域名访问 Vite preview 时，还需要允许外部 Host：
+
+```bash
+METAPOSTGUI_ALLOWED_HOSTS=mpost.vanabel.cn
+METAPOSTGUI_CORS_ORIGINS=https://mpost.vanabel.cn
+```
+
+其中 `ALLOWED_HOSTS` 解决 Vite 的 `Blocked request`，`CORS_ORIGINS` 只影响 API CORS。
+
 ### 1. 构建前端（在开发机或 NAS 上均可）
 
 ```bash

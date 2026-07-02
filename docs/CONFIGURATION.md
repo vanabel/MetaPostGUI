@@ -18,6 +18,7 @@ cp .env.example .env
 | `METAPOSTGUI_API_HOST` | `127.0.0.1` | 保持回环；由 Vite 或 Nginx 反代 `/api` |
 | `METAPOSTGUI_PORT_TRIES` | `20` | 端口占用时向上递增尝试次数 |
 | `METAPOSTGUI_CORS_ORIGINS` | （自动） | 可选，逗号分隔；未设时按 `WEB_PORT` 生成 localhost 来源 |
+| `METAPOSTGUI_ALLOWED_HOSTS` | （空） | Vite preview 允许的 `Host`，用于 Cloudflare Tunnel / 反代域名，如 `mpost.vanabel.cn` |
 
 启动时 `scripts/resolve-ports.sh` 检测占用并写入 `.metapostgui/ports.env`，保证 API 与 Vite 使用同一端口。
 
@@ -27,6 +28,14 @@ cat .metapostgui/ports.env
 ```
 
 **设计原则**：用户只访问前端 URL；`/api` 在进程内反代到 `127.0.0.1:METAPOSTGUI_API_PORT`。默认 API 端口 `18765` 用于避开常见 Node 服务占用的 `8765` 等。
+
+Cloudflare Tunnel 或外部反代访问 Vite preview 时，如果出现 `Blocked request. This host (...) is not allowed.`，设置：
+
+```bash
+METAPOSTGUI_ALLOWED_HOSTS=mpost.vanabel.cn
+```
+
+`METAPOSTGUI_CORS_ORIGINS` 只影响 API CORS；它不是 Vite host allowlist。若需要跨域 API，建议写完整 origin，例如 `https://mpost.vanabel.cn`。
 
 ## TeX / MetaPost 路径
 

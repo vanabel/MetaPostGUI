@@ -17,6 +17,33 @@ function readRuntimePorts(): Record<string, string> {
   return out;
 }
 
+function splitEnvList(value: string | undefined): string[] {
+  return (value ?? "")
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function hostFromOrigin(value: string): string | null {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  try {
+    return new URL(trimmed).hostname;
+  } catch {
+    const withoutProto = trimmed.replace(/^https?:\/\//i, "");
+    const host = withoutProto.split("/")[0]?.split(":")[0]?.trim();
+    return host || null;
+  }
+}
+
+function allowedHosts(env: Record<string, string>): string[] | undefined {
+  const hosts = [
+    ...splitEnvList(env.METAPOSTGUI_ALLOWED_HOSTS),
+    ...splitEnvList(env.METAPOSTGUI_CORS_ORIGINS).map(hostFromOrigin).filter((h): h is string => !!h),
+  ];
+  return hosts.length > 0 ? Array.from(new Set(hosts)) : undefined;
+}
+
 export default defineConfig(({ mode }) => {
   const env = {
     ...loadEnv(mode, ROOT, ""),
@@ -28,6 +55,7 @@ export default defineConfig(({ mode }) => {
   const webHost = env.METAPOSTGUI_WEB_HOST || "127.0.0.1";
   const apiPort = Number(env.METAPOSTGUI_API_PORT || 18765);
   const apiHost = env.METAPOSTGUI_API_HOST || "127.0.0.1";
+  const viteAllowedHosts = allowedHosts(env);
 
   const apiProxy = {
     "/api": {
@@ -47,6 +75,7 @@ export default defineConfig(({ mode }) => {
       host: webHost,
       port: webPort,
       strictPort: false,
+      allowedHosts: viteAllowedHosts,
       proxy: apiProxy,
     },
   };
