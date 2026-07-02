@@ -108,6 +108,10 @@ def compile_figure(
             timeout=60,
         )
         log = (proc.stdout or "") + (proc.stderr or "")
+        mpxerr = work_dir / "mpxerr.log"
+        if mpxerr.is_file():
+            log += "\n\n--- mpxerr.log ---\n"
+            log += mpxerr.read_text(encoding="utf-8", errors="replace")
 
         svg_path = work_dir / f"figure-{fig_num}.svg"
         if not svg_path.is_file():

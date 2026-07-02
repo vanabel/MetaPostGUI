@@ -29,12 +29,5 @@ def extract_mposttex(tex: str) -> str:
 
 
 def normalize_mposttex_for_standalone(latex_body: str) -> str:
-    """Turn mpostinl mposttex (with \\AtBeginDocument hooks) into verbatimtex preamble."""
-    body = latex_body.strip()
-    body = re.sub(
-        r"\\AtBeginDocument\{\\begin\{CJK\*\}\{UTF8\}\{gkai\}\}",
-        r"\\begin{CJK*}{UTF8}{gkai}",
-        body,
-    )
-    body = re.sub(r"\\AtEndDocument\{\\end\{CJK\*\}\}", r"\\end{CJK*}", body)
-    return body
+    """Return LaTeX preamble content for standalone MetaPost compilation."""
+    return latex_body.strip()

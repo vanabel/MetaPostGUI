@@ -153,6 +153,7 @@ source server/.venv/bin/activate
 - `texlive-metapost`
 - `texlive-latex-base`
 - `texlive-latex-recommended`
+- `texlive-latex-extra`
 - `texlive-fonts-recommended`
 - `texlive-lang-chinese`
 - `dvisvgm`
