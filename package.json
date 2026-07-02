@@ -8,6 +8,9 @@
     "dev": "./scripts/dev.sh",
     "dev:api": "./scripts/serve-api.sh",
     "dev:web": "pnpm --dir web dev",
-    "build": "pnpm --dir web build"
+    "build": "pnpm --dir web build",
+    "pm2:dev": "./scripts/pm2.sh start dev",
+    "pm2:prod": "./scripts/pm2.sh start prod",
+    "pm2:prod-api": "./scripts/pm2.sh start prod-api"
   }
 }
