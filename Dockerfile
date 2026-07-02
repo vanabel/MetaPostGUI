@@ -22,7 +22,7 @@ COPY . .
 
 RUN corepack enable \
   && corepack prepare pnpm@11.5.3 --activate \
-  && ./scripts/setup-python.sh \
+  && bash ./scripts/setup-python.sh \
   && pnpm --dir web install --frozen-lockfile \
   && pnpm --dir web build
 
@@ -34,4 +34,4 @@ ENV METAPOSTGUI_API_HOST=127.0.0.1 \
 
 EXPOSE 18080
 
-CMD ["./scripts/docker-entrypoint.sh"]
+CMD ["bash", "./scripts/docker-entrypoint.sh"]
