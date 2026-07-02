@@ -156,6 +156,8 @@ source server/.venv/bin/activate
 - `texlive-latex-extra`
 - `texlive-fonts-recommended`
 - `texlive-lang-chinese`
+- `latex-cjk-chinese`
+- `fonts-arphic-gkai00mp`
 - `dvisvgm`
 - `ghostscript`
 

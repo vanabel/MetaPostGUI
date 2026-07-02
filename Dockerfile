@@ -4,7 +4,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
+    fonts-arphic-gkai00mp \
     ghostscript \
+    latex-cjk-chinese \
     python3 \
     python3-pip \
     python3-venv \
