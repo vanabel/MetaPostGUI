@@ -146,7 +146,64 @@ source server/.venv/bin/activate
 
 ---
 
-## 生产部署步骤（推荐）
+## Docker Compose 部署（推荐，TeX 放容器内）
+
+如果不想在 NAS 主机上安装 TeX Live，可以直接使用项目内的 `Dockerfile` 与 `docker-compose.yml`。镜像会安装最小可用的 MetaPost / LaTeX 组件：
+
+- `texlive-metapost`
+- `texlive-latex-base`
+- `texlive-latex-recommended`
+- `texlive-fonts-recommended`
+- `texlive-lang-chinese`
+- `dvisvgm`
+- `ghostscript`
+
+启动：
+
+```bash
+cd /path/to/MetaPostGUI
+docker compose build
+docker compose up -d
+docker compose logs -f metapostgui
+```
+
+或使用 npm/pnpm 快捷命令：
+
+```bash
+pnpm run docker:build
+pnpm run docker:up
+pnpm run docker:logs
+```
+
+默认映射：
+
+```text
+NAS:18080 -> container:18080
+container internal API: 127.0.0.1:18765
+```
+
+只需要让 Cloudflare Tunnel / 反代指向 `http://127.0.0.1:18080` 或 `http://NAS-IP:18080`。不要单独暴露 API 端口。
+
+`docker-compose.yml` 默认写了：
+
+```yaml
+METAPOSTGUI_ALLOWED_HOSTS: mpost.vanabel.cn
+METAPOSTGUI_CORS_ORIGINS: https://mpost.vanabel.cn
+```
+
+如果你的域名不同，在 Synology Container Manager 的 Project 环境变量中覆盖，或直接改 `docker-compose.yml`。
+
+健康检查：
+
+```bash
+curl http://127.0.0.1:18080/api/health
+```
+
+返回 `ok: true` 且 `mpost` 有路径即可。
+
+---
+
+## 主机部署步骤（PM2）
 
 ### 0. 配置（可选）
 

@@ -1,0 +1,14 @@
+.git/
+.env
+.metapostgui/
+.pnpm-store/
+.pytest_cache/
+node_modules/
+server/.venv/
+server/.pytest_cache/
+server/__pycache__/
+web/dist/
+web/node_modules/
+web/*.log
+*.log
+.DS_Store

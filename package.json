@@ -11,6 +11,10 @@
     "build": "pnpm --dir web build",
     "pm2:dev": "./scripts/pm2.sh start dev",
     "pm2:prod": "./scripts/pm2.sh start prod",
-    "pm2:prod-api": "./scripts/pm2.sh start prod-api"
+    "pm2:prod-api": "./scripts/pm2.sh start prod-api",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f metapostgui"
   }
 }
