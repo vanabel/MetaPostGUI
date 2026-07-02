@@ -2,6 +2,9 @@ services:
   metapostgui:
     build:
       context: .
+      args:
+        DEBIAN_MIRROR: ${DEBIAN_MIRROR:-https://mirrors.ustc.edu.cn/debian}
+        DEBIAN_SECURITY_MIRROR: ${DEBIAN_SECURITY_MIRROR:-https://mirrors.ustc.edu.cn/debian-security}
     image: metapostgui:latest
     container_name: metapostgui
     restart: unless-stopped

@@ -178,6 +178,20 @@ pnpm run docker:up
 pnpm run docker:logs
 ```
 
+Docker 构建默认使用 USTC Debian 镜像加速 apt 下载：
+
+```text
+DEBIAN_MIRROR=https://mirrors.ustc.edu.cn/debian
+DEBIAN_SECURITY_MIRROR=https://mirrors.ustc.edu.cn/debian-security
+```
+
+如果你的 NAS 到 USTC 慢，可以在 `.env` 中改回官方源或其它镜像：
+
+```bash
+DEBIAN_MIRROR=http://deb.debian.org/debian
+DEBIAN_SECURITY_MIRROR=http://deb.debian.org/debian-security
+```
+
 默认映射：
 
 ```text
