@@ -12,7 +12,7 @@ export METAPOSTGUI_WEB_HOST="${METAPOSTGUI_WEB_HOST:-0.0.0.0}"
 export METAPOSTGUI_WEB_PORT="${METAPOSTGUI_WEB_PORT:-18080}"
 export METAPOSTGUI_PORT_TRIES="${METAPOSTGUI_PORT_TRIES:-1}"
 
-"$ROOT/scripts/resolve-ports.sh"
+bash "$ROOT/scripts/resolve-ports.sh"
 # shellcheck disable=SC1091
 source "$ROOT/.metapostgui/ports.env"
 export METAPOSTGUI_API_HOST METAPOSTGUI_API_PORT METAPOSTGUI_WEB_HOST METAPOSTGUI_WEB_PORT
