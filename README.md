@@ -1,6 +1,6 @@
 # MetaPostGUI
 
-纯 Web 的 MetaPost 编辑器：**画布图元** + **mpostdef 宏** + 本机 **mpost** 实时 SVG 预览。可导出 `.mp` 与 `mpostinl` 片段，配合 mathBook / MetaPost-Script 等 TeX 工程使用。
+纯 Web 的 MetaPost 编辑器：**画布图元** + **mpostdef 宏** + 本机 **mpost** 实时 SVG 预览。可导出 `.mp`、`mpostinl` 片段与 PNG 图形，配合 mathBook / MetaPost-Script / Quartz 等工程使用。
 
 ## 文档
 
@@ -51,7 +51,7 @@ cd web && pnpm dev
 - 画布绘制点、线、圆、路径等，自动写入 **scaled u** 风格图元代码
 - 代码与画布双向同步；无法解析的行保留为宏占位
 - **mpostdef** / **插件** 一键插入 `drawgrid`、`coordtwo` 等
-- **Ctrl+R** 编译预览；导出完整 `.mp` 或 `mpostinl`
+- **Ctrl+R** 编译预览；导出完整 `.mp`、`mpostinl` 或 PNG 图形
 
 使用细节见 [使用指南](docs/USER_GUIDE.md)。
 

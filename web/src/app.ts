@@ -32,6 +32,7 @@ import { createExamplesPanel } from "./examples/panel";
 import type { ExampleEntry } from "./examples/types";
 import { createMacroPanel } from "./macros/panel";
 import { hasMacroDefinitions } from "./macros/registry";
+import { downloadSvgElementAsPng, pngFilenameFromLabel } from "./png-export";
 import { emitScene } from "./scene/emit";
 import { SceneHistory } from "./scene/history";
 import { findRelatedLineNumbers } from "./scene/shape-code-lines";
@@ -228,6 +229,7 @@ export async function bootstrap(): Promise<void> {
 
   let canvas: CanvasEditor;
   let macroPanel: { refresh: () => Promise<void> };
+  let previewPngBtn: HTMLButtonElement | null = null;
 
   function persist(): void {
     saveState({
@@ -406,6 +408,10 @@ export async function bootstrap(): Promise<void> {
 
   let logDrawerEl!: HTMLElement;
 
+  function setPngDownloadAvailable(available: boolean): void {
+    if (previewPngBtn) previewPngBtn.disabled = !available;
+  }
+
   async function runCompile(options?: { auto?: boolean }): Promise<void> {
     if (compiling || !editors.figure || !editors.mpostdef || !editors.mposttex)
       return;
@@ -440,6 +446,7 @@ export async function bootstrap(): Promise<void> {
         previewGraphicEl.innerHTML = "";
         previewGraphicEl.insertAdjacentHTML("beforeend", result.svg);
         fitPreviewSvg();
+        setPngDownloadAvailable(true);
         statusEl.textContent = isAuto ? "已自动更新预览" : "编译成功";
         statusEl.className = "status-pill ok";
       } else {
@@ -448,6 +455,7 @@ export async function bootstrap(): Promise<void> {
         previewGraphicEl.appendChild(
           el("div", "preview-placeholder", "编译失败，请查看下方日志"),
         );
+        setPngDownloadAvailable(false);
         statusEl.textContent = isAuto ? "自动编译失败" : "编译失败";
         statusEl.className = "status-pill err";
       }
@@ -455,6 +463,7 @@ export async function bootstrap(): Promise<void> {
       logEl.textContent = err instanceof Error ? err.message : String(err);
       if (editors.figure) clearCompileDiagnostics(editors.figure);
       if (!isAuto) logDrawerEl.classList.remove("collapsed");
+      setPngDownloadAvailable(false);
       statusEl.textContent = "服务错误";
       statusEl.className = "status-pill err";
     } finally {
@@ -803,6 +812,7 @@ export async function bootstrap(): Promise<void> {
 
   const previewSourceActions = el("div", "panel-bar-actions preview-bar-actions");
   previewSourceActions.hidden = true;
+  const previewGraphicActions = el("div", "panel-bar-actions preview-bar-actions");
 
   const previewRefreshBtn = el("button", "ghost", "刷新");
   previewRefreshBtn.title = "根据当前面板内容重新生成源码";
@@ -812,6 +822,10 @@ export async function bootstrap(): Promise<void> {
   previewCopyFigBtn.title = "仅复制 \\begin{mpostfig}…\\end{mpostfig} 段";
   previewCopyFigBtn.hidden = true;
   const previewDownloadBtn = el("button", "ghost", "下载");
+  previewPngBtn = el("button", "ghost", "PNG");
+  previewPngBtn.title = "下载当前编译图形为 PNG";
+  previewPngBtn.disabled = true;
+  previewGraphicActions.appendChild(previewPngBtn);
   previewSourceActions.append(
     previewRefreshBtn,
     previewCopyBtn,
@@ -918,6 +932,7 @@ export async function bootstrap(): Promise<void> {
     previewPanesWrap.querySelectorAll(".preview-pane").forEach((pane) => {
       pane.classList.toggle("active", pane.getAttribute("data-preview") === id);
     });
+    previewGraphicActions.hidden = id !== "graphic";
     previewSourceActions.hidden = id === "graphic";
     previewCopyFigBtn.hidden = id !== "mpostinl";
     previewCopyBtn.textContent = id === "mpostinl" ? "复制全文" : "复制";
@@ -996,7 +1011,33 @@ export async function bootstrap(): Promise<void> {
     downloadText(exportRes.filename, exportRes.content);
   });
 
-  previewBar.append(previewTabs, previewSourceActions);
+  previewPngBtn.addEventListener("click", () => {
+    const svg = previewGraphicEl.querySelector("svg");
+    if (!(svg instanceof SVGSVGElement) || !previewPngBtn) return;
+    const previousLabel = previewPngBtn.textContent ?? "PNG";
+    previewPngBtn.disabled = true;
+    previewPngBtn.textContent = "生成中";
+    void downloadSvgElementAsPng(
+      svg,
+      pngFilenameFromLabel(exportLabelInput.value || "metapost-figure"),
+    )
+      .then(({ width, height }) => {
+        syncHintEl.textContent = `已下载 PNG：${width}×${height}`;
+        previewPngBtn!.textContent = "已下载";
+      })
+      .catch((err) => {
+        syncHintEl.textContent = err instanceof Error ? err.message : "PNG 下载失败";
+      })
+      .finally(() => {
+        window.setTimeout(() => {
+          if (!previewPngBtn) return;
+          previewPngBtn.textContent = previousLabel;
+          previewPngBtn.disabled = !previewGraphicEl.querySelector("svg");
+        }, 1200);
+      });
+  });
+
+  previewBar.append(previewTabs, previewGraphicActions, previewSourceActions);
   previewSection.append(previewBar, previewPanesWrap);
 
   workspaceMain.append(canvasSection, canvasPreviewSplitter, previewSection);

@@ -21,7 +21,7 @@
 2. 首次使用会加载 `config/default-mpostdef.tex` 与 `default-mposttex.tex`。
 3. 在画布绘制或编辑 **图元** 代码；需要网格、坐标轴等用 **宏** 面板插入。
 4. **Ctrl+R** 或点击「编译」查看右侧 SVG 预览。
-5. 满意后 **导出 .mp** 或 **导出 mpostinl** 片段。
+5. 满意后下载 **PNG**，或导出 **.mp** / **mpostinl** 源码。
 
 ## 从磁盘加载宏
 
@@ -56,6 +56,7 @@ NAS 上只能加载**服务器本机**路径，不能填你个人电脑上的路
 
 ## 导出说明
 
+- **图形 → PNG** — 在「图形」预览页点击 **PNG**，会把当前成功编译出的 SVG 在浏览器端转为白底 PNG。文件名使用侧栏「导出标签名」，适合放入普通网页或 Quartz/Markdown 站点中引用。
 - **导出 .mp** — 可独立用 `mpost` 运行的完整源文件（含 mpostdef 与插件宏）。
 - **导出 mpostinl** — 预览区显示**完整可编译**的 `.tex`（`\documentclass`、内联 `\begin{mposttex}` / `\begin{mpostdef}`（含插件）、`\begin{document}` 与 `\begin{mpostfig}`）。
   - **复制全文** — 整份 `.tex`，可直接 `xelatex` / `latexmk` 编译。
